@@ -20,8 +20,6 @@ h3, h3 + * {
 
 </style>
 
-# Syllabus Omnibus
-
 ## Experimentation
 
 <aside>
