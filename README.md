@@ -3,7 +3,6 @@
 h2, h2 + aside {
     color: red;
     width: 25%;
-    position: absolute;
 }
 
 h2 {
@@ -12,6 +11,7 @@ h2 {
 
 h2 + aside {
     margin-top: 4rem;
+    position: absolute;
 }
 
 h3, h3 + * {
