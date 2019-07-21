@@ -3,15 +3,19 @@
 h2, h2 + aside {
     color: red;
     width: 25%;
+    background-color: white;
 }
 
 h2 {
     top: 4rem;
+    position: sticky !important;
 }
 
 h2 + aside {
-    margin-top: 4rem;
-    position: absolute;
+    /* margin-top: 4rem; */
+    /* position: absolute; */
+    position: sticky !important;
+    top: 7rem;
 }
 
 h3, h3 + * {
