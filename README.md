@@ -1,35 +1,28 @@
 <style>
 
-h2, h2 + aside {
-    color: red;
+/* left */
+aside {
+    color: grey;
     width: 25%;
     background-color: white;
-}
-
-h2 {
+    position: sticky;
     top: 4rem;
-    position: sticky !important;
 }
 
-h2 + aside {
-    /* margin-top: 4rem; */
-    /* position: absolute; */
-    position: sticky !important;
-    top: 7rem;
-}
-
+/* right */
 h3, h3 + * {
     margin-left: 30%;
 }
 
 </style>
 
-## asdfasdfasd
-
 <aside>
+
+## asdfasdfasd
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
  - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
+
 </aside>
 
 ### Philosophy/Culture
@@ -55,13 +48,16 @@ h3, h3 + * {
 1. [‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)](http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/)
 1. [Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
+
+
+<aside>
 
 ## j;lkj;lkj;lkj;lkj;lk
 
-<aside>
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
  - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
+ - 
 </aside>
 
 ### Philosophy/Culture
@@ -89,12 +85,14 @@ h3, h3 + * {
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 
 
-## Experimentation
-
 <aside>
+
+## Experimentation, a;lkds jf, asdkjf a;lds, losngd;las jd;lfja;lsd
+
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
  - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
+ - 
 </aside>
 
 ### Philosophy/Culture
