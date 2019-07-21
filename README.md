@@ -1,12 +1,22 @@
 <style>
 
 /* left */
-aside {
+h2, h2 + aside {
     color: grey;
     width: 25%;
     background-color: white;
-    position: sticky;
+}
+
+h2 {
     top: 4rem;
+    position: sticky !important;
+    padding-bottom: 2rem;
+}
+
+h2 + aside {
+    top: 13rem;
+    position: sticky;
+    float: left;
 }
 
 /* right */
@@ -16,9 +26,10 @@ h3, h3 + * {
 
 </style>
 
+## asdfasdfasd
+
 <aside>
 
-## asdfasdfasd
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
  - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
@@ -50,9 +61,9 @@ h3, h3 + * {
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 
 
-<aside>
-
 ## j;lkj;lkj;lkj;lkj;lk
+
+<aside>
 
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
@@ -85,9 +96,9 @@ h3, h3 + * {
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 
 
-<aside>
-
 ## Experimentation, a;lkds jf, asdkjf a;lds, losngd;las jd;lfja;lsd
+
+<aside>
 
  - A smattering of academic and industry best practices
  - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
