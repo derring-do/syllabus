@@ -28,6 +28,7 @@ h3, h3 + * {
   width: 20%;
   min-width: 250px;
   padding: 0rem;
+  margin-top: 2rem;
 }
 
 .right {
