@@ -8,22 +8,6 @@
   --nav-link-color: grey; 
 }
 
-.right li {
-  padding-bottom: .5rem;
-}
-
-.right a {
-  color: #614db3 !important;
-}
-
-.right a:hover {
-  color: #7300e6 !important;
-}
-
-.right a:active, a:visited {
-  color: #400080 !important;
-}
-
 h2 {
   text-transform: uppercase; 
   padding: 1rem 0 1rem 0;
@@ -77,6 +61,22 @@ aside ul {
   padding-left: 3rem;
 }
 
+.right li {
+  padding-bottom: .5rem;
+}
+
+.right a {
+  color: #614db3 !important;
+}
+
+.right a:hover {
+  color: #7300e6 !important;
+}
+
+.right a:active, a:visited {
+  color: #400080 !important;
+}
+
 nav {
   position: sticky;
   top: 5rem;
@@ -85,7 +85,7 @@ nav {
   color: var(--nav-link-color) !important;
 }
 
-nav * a {
+nav * a, nav * a:visited, nav * a:active, nav * a:hover {
   color: var(--nav-link-color) !important;
 }
 
@@ -348,7 +348,7 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
 <script>
-// showdown.js
+// showdown.js to render as .md without needing to convert to html
 var text = document.querySelector('.right').innerHTML;
 converter = new showdown.Converter(); 
 document.querySelector('.right').innerHTML = converter.makeHtml(text);
