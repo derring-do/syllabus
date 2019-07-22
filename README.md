@@ -112,7 +112,7 @@ a.scroll-nav__link {}
 
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
-General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
+General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
   
 [Read online](https://www.bitbybitbook.com/en/1st-ed/preface) or [request hard copy from Harvard Library](http://id.lib.harvard.edu/alma/990152301880203941/catalog). 
 - [2.3 Ten common characteristics of big data](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/characteristics/)
@@ -343,6 +343,7 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 Last-ditch effort to provide novel information to savvy readers:
 1. [The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music](https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music)
 2. [25 Delightful Facts About Delaware](http://mentalfloss.com/article/70917/25-delightful-facts-about-delaware)
+
 
 </div>
 </div>
