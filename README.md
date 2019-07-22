@@ -5,22 +5,14 @@
 <style>
 
 /* left */
-h2, h2 + aside {
+h2 + aside {
     color: grey;
     width: 25%;
     background-color: white;
-}
-
-h2 {
-    top: 4rem;
-    position: sticky !important;
-    padding-bottom: 2rem;
-}
-
-h2 + aside {
-    top: 13rem;
+    top: 5rem;
     position: sticky;
     float: left;
+    font-size: 1rem;
 }
 
 /* right */
@@ -30,18 +22,17 @@ h3, h3 + * {
 
 .container {
   display: flex;
-  padding-top: 5rem;
 }
 
 .left {
   width: 20%;
   min-width: 250px;
-  padding: 0rem 2rem 2rem 2rem;
+  padding: 0rem;
 }
 
 .right {
   flex: 1;
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 nav {
