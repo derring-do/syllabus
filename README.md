@@ -162,8 +162,8 @@ a.scroll-nav__link {}
 1. [Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 
-</right>
-</container>
+</div>
+</div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
