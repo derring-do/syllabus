@@ -110,7 +110,7 @@ a.scroll-nav__link {}
 
 # Syllabus
 
-[https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
+[https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/){: .test}
 
 General introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
   
@@ -344,7 +344,6 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 1. [R for Marketing Research and Analytics. Chapman & Feit 2015](./resources/r-marketing-research-analytics.pdf): Book with exercises
 1. [rstudio-conf 2019 Workshop materials](https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md)
 1. [plotly: D3.js wrapper to make interactives from ggplot graphics](https://plot.ly/ggplot2/getting-started/)
-
 
 </div>
 </div>
