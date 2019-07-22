@@ -4,7 +4,7 @@
 
 <style>
 
-/* left */
+/* sticky h2 blurbs */
 h2 + aside {
     color: grey;
     width: 30%;
@@ -17,11 +17,7 @@ h2 + aside {
     margin-left: -40%;
 }
 
-/* right */
-h3, h3 + * {
-    /* margin-left: 30%; */
-}
-
+/* scrollnav.js stuff */
 .container {
   display: flex;
 }
@@ -31,7 +27,6 @@ h3, h3 + * {
   min-width: 250px;
   padding: 0rem;
   margin-top: 2rem;
-  z-index: 9999999;
 }
 
 .right {
