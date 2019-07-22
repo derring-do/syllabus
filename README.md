@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+
 <style>
 
 /* left */
@@ -24,7 +28,43 @@ h3, h3 + * {
     margin-left: 30%;
 }
 
+.container {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.left {
+  width: 20%;
+  min-width: 250px;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.right {
+  flex: 1;
+  padding-left: 5rem;
+}
+
+nav {
+  position: sticky;
+  top: 5rem;
+}
+
+nav.scroll-nav {}
+
+ol.scroll-nav__list {}
+
+li.scroll-nav__item.scroll-nav__item--active,
+li.scroll-nav__item.scroll-nav__item--active a.scroll-nav__link {
+  font-weight: bold;
+  }
+      
+a.scroll-nav__link {}
+
 </style>
+
+<div class="container">
+<div class="left"></div>
+<div class="right">
 
 ## asdfasdfasd
 
@@ -129,3 +169,25 @@ h3, h3 + * {
 1. [‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)](http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/)
 1. [Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
+
+</right>
+</container>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+
+<script>
+// showdown.js
+var text = document.querySelector('.right').innerHTML;
+converter = new showdown.Converter(); 
+document.querySelector('.right').innerHTML = converter.makeHtml(text);
+
+// scrollnav.js
+const content = document.querySelector('.right');
+const insertTarget = document.querySelector('.left');
+scrollnav.init(content, { 
+  debug: false,
+  insertTarget: insertTarget,
+  insertLocation: 'append'
+  });
+</script>
