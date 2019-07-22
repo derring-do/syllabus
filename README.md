@@ -264,7 +264,7 @@ Understand margin of error and be able to estimate it for a given survey
 7. JavaScript Regex:
     1. [Debuggex](https://www.debuggex.com/)
     2. [Regex101](https://regex101.com/)
-8. 9. [Principles of Accessible and Universal Design](http://www.usabilityfirst.com/about-usability/accessibility/principles-of-accessible-and-universal-design/)
+8. [Principles of Accessible and Universal Design](http://www.usabilityfirst.com/about-usability/accessibility/principles-of-accessible-and-universal-design/)
 9.  More JavaScript:
 Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anonymous functions, DOM navigation
     + [Making Bookmarklets](https://gist.github.com/caseywatts/c0cec1f89ccdb8b469b1)
