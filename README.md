@@ -339,6 +339,11 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 1. [rstudio-conf 2019 Workshop materials](https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md)
 1. [plotly: D3.js wrapper to make interactives from ggplot graphics](https://plot.ly/ggplot2/getting-started/)
 
+## Random
+Last-ditch effort to provide novel information to savvy readers:
+1. [The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music](https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music)
+2. [25 Delightful Facts About Delaware](http://mentalfloss.com/article/70917/25-delightful-facts-about-delaware)
+
 </div>
 </div>
 
