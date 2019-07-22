@@ -199,6 +199,7 @@ None of that prepared him for the arena, the crowd, the tense hush, the towering
 Understand survey design principles for mitigating response biases
 Understand margin of error and be able to estimate it for a given survey
 </aside>
+
 ### Questionnaire Design
 1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
 2. [Harvard University Program on Survey Research](https://psr.iq.harvard.edu/book/guides-survey-research)
@@ -223,7 +224,6 @@ Understand margin of error and be able to estimate it for a given survey
 18. [Respectful Collection of Demographic Data](https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2)
 19. [SurveyMonkey's survey science blog](https://www.surveymonkey.com/curiosity/topic/survey-science/)
 20. [Andrew Gelman's Design and Analysis of Sample Surveys exam questions and answers](https://statmodeling.stat.columbia.edu/?s=%22Design+and+Analysis+of+Sample+Surveys%22)
-    
     -  "18. A survey is taken of 100 undergraduates, 100 graduate students, and 100 continuing education students at a university. Assume a simple random sample within each group. Each student is asked to rate his or her satisfaction (on a 1–10 scale) with his or her experiences. Write the estimate and standard error of the average satisfaction of all the students at the university. Introduce notation as necessary for all the information needed to solve the problem."
 
 ### Translation and Internationalization
