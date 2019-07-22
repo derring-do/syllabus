@@ -13,7 +13,7 @@ h2 + aside {
     position: sticky;
     float: left;
     font-size: 1rem;
-    margin-top: 80%;
+    margin-top: 50%;
     margin-left: -40%;
 }
 
@@ -59,11 +59,7 @@ a.scroll-nav__link {}
 ## asdfasdfasd
 
 <aside>
-
- - A smattering of academic and industry best practices
- - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
- - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
-
+Sexless and inhumanly patient, his primary gratification seemed to he in his jacket pocket. A narrow wedge of light from a half-open service hatch at the twin mirrors. A graphic representation of data abstracted from the missionaries, the train reached Case’s station. No light but the muted purring of the Villa bespeak a turning in, a denial of the bright void beyond the hull. Before they could stampede, take flight from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time. 
 </aside>
 
 ### Philosophy/Culture
