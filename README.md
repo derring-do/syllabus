@@ -4,8 +4,33 @@
 
 <style>
 
-/* sticky h2 blurbs */
-h2 + aside {
+:root {
+  --nav-link-color: grey; 
+}
+
+.right li {
+  padding-bottom: .5rem;
+}
+
+a {
+  color: #614db3 !important;
+}
+
+a:hover {
+  color: #7300e6 !important;
+}
+
+a:active, a:visited {
+  color: #400080 !important;
+}
+
+h2 {
+  text-transform: uppercase; 
+  padding: 1rem 0 1rem 0;
+}
+
+/* sticky asides */
+aside {
     color: grey;
     width: 20%;
     background-color: white;
@@ -16,6 +41,19 @@ h2 + aside {
     /* margin-top: 50%; */
     margin-right: -25%;
     height: 30%;
+    font-style: italic;
+    font-family: serif;
+    padding-left: 1rem;
+}
+
+aside:before {
+  content: "                                                   \A";
+  white-space: pre;
+  border-top: 1px solid grey;
+}
+
+aside ul {
+  padding-left: 1rem;
 }
 
 /* scrollnav.js stuff */
@@ -24,6 +62,7 @@ h2 + aside {
   padding: 0rem;
   margin: 0rem;
   flex-wrap: wrap;
+  font-size: 1.05rem;
 }
 
 .left {
@@ -41,6 +80,13 @@ h2 + aside {
 nav {
   position: sticky;
   top: 5rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--nav-link-color) !important;
+}
+
+nav * a {
+  color: var(--nav-link-color) !important;
 }
 
 nav.scroll-nav {}
@@ -151,7 +197,7 @@ Understand survey design principles for mitigating response biases
 Understand margin of error and be able to estimate it for a given survey
 
 </aside>
-
+****
 ### Questionnaire Design
 1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
 2. [Harvard University Program on Survey Research](https://psr.iq.harvard.edu/book/guides-survey-research)

@@ -26,8 +26,33 @@
 <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
 <style>
 
-/* sticky h2 blurbs */
-h2 + aside {
+:root {
+  --nav-link-color: grey; 
+}
+
+.right li {
+  padding-bottom: .5rem;
+}
+
+a {
+  color: #614db3 !important;
+}
+
+a:hover {
+  color: #7300e6 !important;
+}
+
+a:active, a:visited {
+  color: #400080 !important;
+}
+
+h2 {
+  text-transform: uppercase; 
+  padding: 1rem 0 1rem 0;
+}
+
+/* sticky asides */
+aside {
     color: grey;
     width: 20%;
     background-color: white;
@@ -38,6 +63,19 @@ h2 + aside {
     /* margin-top: 50%; */
     margin-right: -25%;
     height: 30%;
+    font-style: italic;
+    font-family: serif;
+    padding-left: 1rem;
+}
+
+aside:before {
+  content: "                                                   \A";
+  white-space: pre;
+  border-top: 1px solid grey;
+}
+
+aside ul {
+  padding-left: 1rem;
 }
 
 /* scrollnav.js stuff */
@@ -46,6 +84,7 @@ h2 + aside {
   padding: 0rem;
   margin: 0rem;
   flex-wrap: wrap;
+  font-size: 1.05rem;
 }
 
 .left {
@@ -63,6 +102,13 @@ h2 + aside {
 nav {
   position: sticky;
   top: 5rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--nav-link-color) !important;
+}
+
+nav * a {
+  color: var(--nav-link-color) !important;
 }
 
 nav.scroll-nav {}
@@ -70,7 +116,8 @@ nav.scroll-nav {}
 ol.scroll-nav__list {}
 
 li.scroll-nav__item.scroll-nav__item--active,
-li.scroll-nav__item.scroll-nav__item--active a.scroll-nav__link {
+li.scroll-nav__item.scroll-nav__item--active a.scroll-nav__link,
+li.scroll-nav__sub-item.scroll-nav__item--active a.scroll-nav__sub-link {
   font-weight: bold;
   }
       
@@ -194,32 +241,17 @@ None of that prepared him for the arena, the crowd, the tense hush, the towering
 <p>Understand survey design principles for mitigating response biases</p>
 <p>Understand margin of error and be able to estimate it for a given survey</p>
 </aside>
-<h3 id="Questionnaire-Design">Questionnaire Design</h3>
-<ol>
-<li>
-<p><a href="https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk">Pew Research Center Methods 101 YouTube Playlist</a>: Currently 3 videos all ~5 min or less</p>
-</li>
-<li>
-<p><a href="https://psr.iq.harvard.edu/book/guides-survey-research">Harvard University Program on Survey Research</a></p>
-</li>
-<li>
-<p><a href="https://www.surveygizmo.com/resources/blog/representative-sample">Representative Samples: Does Sample Size Really Matter?</a></p>
-</li>
-<li>
-<p><a href="https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm">Margin of error</a></p>
-</li>
-<li>
-<p><a href="https://www.researchnow.com/blog/10-best-practices-survey-screening/">10 Best Practices in Survey Screening</a>: Don't terminate respondents after sensitive demographic questions</p>
-</li>
-<li>
-<p><a href="https://www.surveymonkey.com/mp/how-to-number-rating-scales/">Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)</a>: Understand unipolar vs. bipolar scales</p>
-</li>
-<li>
-<p><a href="https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4">How much do the numbers used in survey scales really matter?</a></p>
-<ul>
-<li>These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.</li>
-</ul>
-</li>
+****
+### Questionnaire Design
+1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
+2. [Harvard University Program on Survey Research](https://psr.iq.harvard.edu/book/guides-survey-research)
+3. [Representative Samples: Does Sample Size Really Matter?](https://www.surveygizmo.com/resources/blog/representative-sample) 
+4. [Margin of error](https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm)
+5. [10 Best Practices in Survey Screening](https://www.researchnow.com/blog/10-best-practices-survey-screening/): Don't terminate respondents after sensitive demographic questions
+6. [Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)](https://www.surveymonkey.com/mp/how-to-number-rating-scales/): Understand unipolar vs. bipolar scales
+7. [How much do the numbers used in survey scales really matter?](https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4)
+    - These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.
+<ol start="8">
 <li>
 <p><a href="https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/">Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods</a></p>
 <ul>
