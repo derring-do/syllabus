@@ -7,17 +7,19 @@
 /* left */
 h2 + aside {
     color: grey;
-    width: 25%;
+    width: 30%;
     background-color: white;
-    top: 5rem;
+    top: 50%;
     position: sticky;
     float: left;
     font-size: 1rem;
+    margin-top: 80%;
+    margin-left: -50%;
 }
 
 /* right */
 h3, h3 + * {
-    margin-left: 30%;
+    /* margin-left: 30%; */
 }
 
 .container {
@@ -29,6 +31,7 @@ h3, h3 + * {
   min-width: 250px;
   padding: 0rem;
   margin-top: 2rem;
+  z-index: 9999999;
 }
 
 .right {
@@ -164,7 +167,6 @@ a.scroll-nav__link {}
 
 </div>
 </div>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
