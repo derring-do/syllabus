@@ -132,9 +132,7 @@ General introductory text to online social research: *Bit by bit: social researc
 
 ### Philosophy/Culture
 1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): Read the instructions and play a few rounds in simulation mode
-2. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb) 
-3. [The art of A/B testing](https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4)
-4. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
+2. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)3. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
 
 ### Experimental Design
 1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
