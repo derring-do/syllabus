@@ -193,15 +193,10 @@ None of that prepared him for the arena, the crowd, the tense hush, the towering
 8. [#measure Slack](): free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.
 
 ## Surveys
-
 <aside>
-
 Understand survey design principles for mitigating response biases
-
 Understand margin of error and be able to estimate it for a given survey
-
 </aside>
-****
 ### Questionnaire Design
 1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
 2. [Harvard University Program on Survey Research](https://psr.iq.harvard.edu/book/guides-survey-research)
@@ -211,7 +206,6 @@ Understand margin of error and be able to estimate it for a given survey
 6. [Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)](https://www.surveymonkey.com/mp/how-to-number-rating-scales/): Understand unipolar vs. bipolar scales
 7. [How much do the numbers used in survey scales really matter?](https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4)
     - These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.
-  
 8. [Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods](https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/)
    - The new study found compelling evidence that forced-choice questions yield more accurate results than select-all-that-apply lists. 
 9.  [Survey rating scales: numbered vs worded lists (SurveyMonkey)](https://www.surveymonkey.com/mp/presenting-your-rating-scales-numbered-versus-worded-lists/)
@@ -232,9 +226,9 @@ Understand margin of error and be able to estimate it for a given survey
 
 ### Translation and Internationalization
 1. [Questionnaire design and translation (Pew)](http://www.pewresearch.org/methods/international-survey-research/questionnaire-design-and-translation/)
-1. [The Unique Challenges of Surveying U.S. Latinos (Pew)](http://www.pewresearch.org/methods/2015/11/12/the-unique-challenges-of-surveying-u-s-latinos/): 
-1. Kleiner, B., Pan, Y., & Bouic, J. (2009). The Impact of Instructions on Survey Translation: An Experimental Study. Survey Research Methods, 3(3), 113-122. doi: http://dx.doi.org/10.18148/srm/2009.v3i3.1563: [link](./resources/instructions-survey-translations.pdf): Includes translator instructions template
-1. [Gallup Worldwide Research Methodology and Codebook (2017)](./resources/gallup2017_worldwide_methodology.pdf)
+2. [The Unique Challenges of Surveying U.S. Latinos (Pew)](http://www.pewresearch.org/methods/2015/11/12/the-unique-challenges-of-surveying-u-s-latinos/): 
+3. Kleiner, B., Pan, Y., & Bouic, J. (2009). The Impact of Instructions on Survey Translation: An Experimental Study. Survey Research Methods, 3(3), 113-122. doi: http://dx.doi.org/10.18148/srm/2009.v3i3.1563: [link](./resources/instructions-survey-translations.pdf): Includes translator instructions template
+4. [Gallup Worldwide Research Methodology and Codebook (2017)](./resources/gallup2017_worldwide_methodology.pdf)
 
 ### Panels/Recruiting
 1. [ESOMAR 28 Questions to Help Research Buyers of Online Samples](https://www.esomar.org/uploads/public/knowledge-and-standards/documents/ESOMAR-28-Questions-to-Help-Buyers-of-Online-Samples-September-2012.pdf): Overview of terminology and considerations re: panel samples. Every reputable sample provider should have a document answering these questions. 
