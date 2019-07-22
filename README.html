@@ -25,6 +25,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
 <script src="https://hypothes.is/embed.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.2.2/mermaid.min.js" integrity="sha256-LmEPUIr5lihB6056tR9UzFHSjyZ7Z0ba9Hj4ovAQcyE=" crossorigin="anonymous"></script>
 <style>
 
 :root {
@@ -130,7 +131,7 @@ a.scroll-nav__link {}
 <div class="right">
 <h1 id="Syllabus">Syllabus</h1>
 <p><a href="https://derring-do.github.io/syllabus/">https://derring-do.github.io/syllabus/</a></p>
-<p>This is a cursorily-curated brain dump of resources related to the kinds of work I do and teach others to do.</p>
+<p>This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do.</p>
 <p>General and <a href="https://www.readinglength.com/book/isbn-0691158649">quick (&lt;8 hours)</a> introductory text to online social research: <em>Bit by bit: social research in the digital age.</em> 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and &quot;What to Read Next&quot; references and exercises at end. The online platform also has Hypothesis embedded, which is a <a href="https://web.hypothes.is/start/">generally useful plugin for all-purpose/cross-Internet annotation. (free account required)</a></p>
 <p><a href="https://www.bitbybitbook.com/en/1st-ed/preface">Read online</a> or <a href="http://id.lib.harvard.edu/alma/990152301880203941/catalog">request hard copy from Harvard Library</a>.</p>
 <ul>
@@ -244,32 +245,45 @@ None of that prepared him for the arena, the crowd, the tense hush, the towering
 Understand survey design principles for mitigating response biases
 Understand margin of error and be able to estimate it for a given survey
 </aside>
-### Questionnaire Design
-1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
-2. [Harvard University Program on Survey Research](https://psr.iq.harvard.edu/book/guides-survey-research)
-3. [Representative Samples: Does Sample Size Really Matter?](https://www.surveygizmo.com/resources/blog/representative-sample) 
-4. [Margin of error](https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm)
-5. [10 Best Practices in Survey Screening](https://www.researchnow.com/blog/10-best-practices-survey-screening/): Don't terminate respondents after sensitive demographic questions
-6. [Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)](https://www.surveymonkey.com/mp/how-to-number-rating-scales/): Understand unipolar vs. bipolar scales
-7. [How much do the numbers used in survey scales really matter?](https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4)
-    - These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.
-8. [Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods](https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/)
-   - The new study found compelling evidence that forced-choice questions yield more accurate results than select-all-that-apply lists. 
-9.  [Survey rating scales: numbered vs worded lists (SurveyMonkey)](https://www.surveymonkey.com/mp/presenting-your-rating-scales-numbered-versus-worded-lists/)
-10. [What is a Likert scale? (SurveyMonkey)](https://www.surveymonkey.com/mp/likert-scale/?ut_source1=mp&ut_source2=survey_guidelines)
-11. [A survey resolution: Stop throwing away your variance! (SurveyMonkey)](https://www.surveymonkey.com/curiosity/methodology-variance/)
-12. [What’s the best way to design a matrix question? (SurveyMonkey)](https://www.surveymonkey.com/curiosity/whats-best-way-design-matrix-question/)
-13. [Let’s agree NOT to use agree/disagree questions (SurveyMonkey)](https://www.surveymonkey.com/curiosity/lets-agree-not-use-agreedisagree-questions/)
-14. [Why (and how!) to ask survey questions on sexual orientation and gender identity (SurveyMonkey)](https://www.surveymonkey.com/curiosity/ask-survey-questions-sexual-orientation-gender-identity/)
-15. Huang, Jason & Bowling, Nathan & Liu, Mengqiao & Li, Yuhui. (2014). Detecting Insufficient Effort Responding with an Infrequency Scale: Evaluating Validity and Participant Reactions. Journal of Business and Psychology. 10.1007/s10869-014-9357-6: [link](https://www.researchgate.net/publication/261597350_Detecting_Insufficient_Effort_Responding_with_an_Infrequency_Scale_Evaluating_Validity_and_Participant_Reactions): Understand what IER is, what it might look like, pros and cons of various countermeasures (longstring, psychometric antonym/synonym, Mahalanobis distance, manipulation/attention check)
-    + [Cliffnotes version](https://github.com/SurveyMan/SurveyMan/wiki/Detecting-and-Deterring-Insufficient-Effort-Responding)
-16. [Net Promoter Score Pros and Cons: Why Use NPS? (SurveyMonkey)](https://www.surveymonkey.com/mp/nps-pros-cons-why-use-nps/)
-17. [Net Promoter Score (Wikipedia)](https://en.wikipedia.org/wiki/Net_Promoter)
-18. [Respectful Collection of Demographic Data](https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2)
-19. [SurveyMonkey's survey science blog](https://www.surveymonkey.com/curiosity/topic/survey-science/)
-20. [Andrew Gelman's Design and Analysis of Sample Surveys exam questions and answers](https://statmodeling.stat.columbia.edu/?s=%22Design+and+Analysis+of+Sample+Surveys%22)
-<pre><code>-  &quot;18. A survey is taken of 100 undergraduates, 100 graduate students, and 100 continuing education students at a university. Assume a simple random sample within each group. Each student is asked to rate his or her satisfaction (on a 1–10 scale) with his or her experiences. Write the estimate and standard error of the average satisfaction of all the students at the university. Introduce notation as necessary for all the information needed to solve the problem.&quot;
-</code></pre>
+<h3 id="Questionnaire-Design">Questionnaire Design</h3>
+<ol>
+<li><a href="https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk">Pew Research Center Methods 101 YouTube Playlist</a>: Currently 3 videos all ~5 min or less</li>
+<li><a href="https://psr.iq.harvard.edu/book/guides-survey-research">Harvard University Program on Survey Research</a></li>
+<li><a href="https://www.surveygizmo.com/resources/blog/representative-sample">Representative Samples: Does Sample Size Really Matter?</a></li>
+<li><a href="https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm">Margin of error</a></li>
+<li><a href="https://www.researchnow.com/blog/10-best-practices-survey-screening/">10 Best Practices in Survey Screening</a>: Don't terminate respondents after sensitive demographic questions</li>
+<li><a href="https://www.surveymonkey.com/mp/how-to-number-rating-scales/">Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)</a>: Understand unipolar vs. bipolar scales</li>
+<li><a href="https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4">How much do the numbers used in survey scales really matter?</a>
+<ul>
+<li>These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.</li>
+</ul>
+</li>
+<li><a href="https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/">Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods</a>
+<ul>
+<li>The new study found compelling evidence that forced-choice questions yield more accurate results than select-all-that-apply lists.</li>
+</ul>
+</li>
+<li><a href="https://www.surveymonkey.com/mp/presenting-your-rating-scales-numbered-versus-worded-lists/">Survey rating scales: numbered vs worded lists (SurveyMonkey)</a></li>
+<li><a href="https://www.surveymonkey.com/mp/likert-scale/?ut_source1=mp&amp;ut_source2=survey_guidelines">What is a Likert scale? (SurveyMonkey)</a></li>
+<li><a href="https://www.surveymonkey.com/curiosity/methodology-variance/">A survey resolution: Stop throwing away your variance! (SurveyMonkey)</a></li>
+<li><a href="https://www.surveymonkey.com/curiosity/whats-best-way-design-matrix-question/">What’s the best way to design a matrix question? (SurveyMonkey)</a></li>
+<li><a href="https://www.surveymonkey.com/curiosity/lets-agree-not-use-agreedisagree-questions/">Let’s agree NOT to use agree/disagree questions (SurveyMonkey)</a></li>
+<li><a href="https://www.surveymonkey.com/curiosity/ask-survey-questions-sexual-orientation-gender-identity/">Why (and how!) to ask survey questions on sexual orientation and gender identity (SurveyMonkey)</a></li>
+<li>Huang, Jason &amp; Bowling, Nathan &amp; Liu, Mengqiao &amp; Li, Yuhui. (2014). Detecting Insufficient Effort Responding with an Infrequency Scale: Evaluating Validity and Participant Reactions. Journal of Business and Psychology. 10.1007/s10869-014-9357-6: <a href="https://www.researchgate.net/publication/261597350_Detecting_Insufficient_Effort_Responding_with_an_Infrequency_Scale_Evaluating_Validity_and_Participant_Reactions">link</a>: Understand what IER is, what it might look like, pros and cons of various countermeasures (longstring, psychometric antonym/synonym, Mahalanobis distance, manipulation/attention check)
+<ul>
+<li><a href="https://github.com/SurveyMan/SurveyMan/wiki/Detecting-and-Deterring-Insufficient-Effort-Responding">Cliffnotes version</a></li>
+</ul>
+</li>
+<li><a href="https://www.surveymonkey.com/mp/nps-pros-cons-why-use-nps/">Net Promoter Score Pros and Cons: Why Use NPS? (SurveyMonkey)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Net_Promoter">Net Promoter Score (Wikipedia)</a></li>
+<li><a href="https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2">Respectful Collection of Demographic Data</a></li>
+<li><a href="https://www.surveymonkey.com/curiosity/topic/survey-science/">SurveyMonkey's survey science blog</a></li>
+<li><a href="https://statmodeling.stat.columbia.edu/?s=%22Design+and+Analysis+of+Sample+Surveys%22">Andrew Gelman's Design and Analysis of Sample Surveys exam questions and answers</a>
+<ul>
+<li>&quot;18. A survey is taken of 100 undergraduates, 100 graduate students, and 100 continuing education students at a university. Assume a simple random sample within each group. Each student is asked to rate his or her satisfaction (on a 1–10 scale) with his or her experiences. Write the estimate and standard error of the average satisfaction of all the students at the university. Introduce notation as necessary for all the information needed to solve the problem.&quot;</li>
+</ul>
+</li>
+</ol>
 <h3 id="Translation-and-Internationalization">Translation and Internationalization</h3>
 <ol>
 <li><a href="http://www.pewresearch.org/methods/international-survey-research/questionnaire-design-and-translation/">Questionnaire design and translation (Pew)</a></li>
@@ -411,7 +425,36 @@ Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anon
 <li><a href="https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md">rstudio-conf 2019 Workshop materials</a></li>
 <li><a href="https://plot.ly/ggplot2/getting-started/">plotly: D3.js wrapper to make interactives from ggplot graphics</a></li>
 </ol>
-<h2 id="Random">Random</h2>
+<h2 id="Toolkit">Toolkit</h2>
+<p>Unless otherwise noted, these are free and/or open source with no account creation required. For some of these, a tradeoff of the ease of use is the lack of security re: proprietary data as well as limited persistence, so be vigilant!</p>
+<h3 id="Planning-Sketching-Prototyping">Planning, Sketching, Prototyping</h3>
+<ol>
+<li><a href="https://aggie.io/">Aggie</a> and <a href="https://awwapp.com/">AWW App</a>: Collaborative painting/whiteboarding</li>
+<li><a href="https://www.gloomaps.com/">GlooMaps</a>: Visual Sitemap Tool</li>
+<li><a href="https://wireframe.cc/">wireframe.cc</a>: Minimal wireframing</li>
+<li><a href="https://www.draw.io/">draw.io</a>: Flowcharts and UML diagrams; for mobile, I like <a href="http://www.drawexpress.com">DrawExpress</a>, which has an intuitive gesture system</li>
+<li><a href="https://kopywritingkourse.com/edit-any-website-free-tool/">Document Design Mode in any browser</a>: Edit a web page like it's a Word doc</li>
+<li><a href="https://mermaidjs.github.io/">mermaidJS</a>: Markdown-based flowcharts and gantt charts; has VSCode extension for live preview; can be published in Github .MDs by sourcing the JS library. Here's an example illustrating my reference management system:</li>
+</ol>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
+graph TD
+Podcasts --> Feedly{Feedly}
+Twitter --> |liked| IFTTT
+Reddit  --> |saved| IFTTT
+links["Misc Links"] --> Feedly
+PDFs --> Feedly
+IFTTT --> Feedly
+Book -->|"Titles and notes"| Airtable
+</div>
+<h3 id="Video-and-GIF-editing">Video and GIF editing</h3>
+<ul>
+<li><a href="https://www.videolan.org/vlc/index.html">VLC media player</a> is a free and open source media player that runs on all platforms, plays all formats, and has useful playback features, e.g., speed up/slow down</li>
+<li><a href="https://getsharex.com/">ShareX (Windows)</a>: screenshots, video/GIF recording; install ffmpeg when prompted in GUI</li>
+<li><a href="https://github.com/mifi/lossless-cut">LosslessCut</a> is a fast, cross-platform tool for quick video editing (doesn't re-encode video after changes, so edited video is available near-instantly)</li>
+<li><a href="https://ffmpeg.org/">ffmpeg</a> is a command line tool that can screen and video capture, encode/decode, convert, and more -- can be baked into automated workflows</li>
+</ul>
+<h2 id="Arcana">Arcana</h2>
 <p>Last-ditch effort to provide novel information to savvy readers:</p>
 <ol>
 <li><a href="https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music">The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music</a></li>

@@ -2,6 +2,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
 <script src="https://hypothes.is/embed.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.2.2/mermaid.min.js" integrity="sha256-LmEPUIr5lihB6056tR9UzFHSjyZ7Z0ba9Hj4ovAQcyE=" crossorigin="anonymous"></script>
 
 <style>
 
@@ -112,7 +113,7 @@ a.scroll-nav__link {}
 
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
-This is a cursorily-curated brain dump of resources related to the kinds of work I do and teach others to do. 
+This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
 
 General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
   
@@ -341,11 +342,40 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 1. [rstudio-conf 2019 Workshop materials](https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md)
 1. [plotly: D3.js wrapper to make interactives from ggplot graphics](https://plot.ly/ggplot2/getting-started/)
 
-## Random
+## Toolkit 
+Unless otherwise noted, these are free and/or open source with no account creation required. For some of these, a tradeoff of the ease of use is the lack of security re: proprietary data as well as limited persistence, so be vigilant! 
+
+### Planning, Sketching, Prototyping
+1. [Aggie](https://aggie.io/) and [AWW App](https://awwapp.com/): Collaborative painting/whiteboarding
+1. [GlooMaps](https://www.gloomaps.com/): Visual Sitemap Tool
+1. [wireframe.cc](https://wireframe.cc/): Minimal wireframing
+1. [draw.io](https://www.draw.io/): Flowcharts and UML diagrams; for mobile, I like [DrawExpress](http://www.drawexpress.com), which has an intuitive gesture system
+1. [Document Design Mode in any browser](https://kopywritingkourse.com/edit-any-website-free-tool/): Edit a web page like it's a Word doc
+2. [mermaidJS](https://mermaidjs.github.io/): Markdown-based flowcharts and gantt charts; has VSCode extension for live preview; can be published in Github .MDs by sourcing the JS library. Here's an example illustrating my reference management system:
+
+<script>mermaid.initialize({startOnLoad:true});</script>
+<div class="mermaid">
+graph TD
+Podcasts --> Feedly{Feedly}
+Twitter --> |liked| IFTTT
+Reddit  --> |saved| IFTTT
+links["Misc Links"] --> Feedly
+PDFs --> Feedly
+IFTTT --> Feedly
+Book -->|"Titles and notes"| Airtable
+</div>
+
+### Video and GIF editing
+- [VLC media player](https://www.videolan.org/vlc/index.html) is a free and open source media player that runs on all platforms, plays all formats, and has useful playback features, e.g., speed up/slow down
+- [ShareX (Windows)](https://getsharex.com/): screenshots, video/GIF recording; install ffmpeg when prompted in GUI
+- [LosslessCut](https://github.com/mifi/lossless-cut) is a fast, cross-platform tool for quick video editing (doesn't re-encode video after changes, so edited video is available near-instantly)
+- [ffmpeg](https://ffmpeg.org/) is a command line tool that can screen and video capture, encode/decode, convert, and more -- can be baked into automated workflows
+
+
+## Arcana
 Last-ditch effort to provide novel information to savvy readers:
 1. [The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music](https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music)
 2. [25 Delightful Facts About Delaware](http://mentalfloss.com/article/70917/25-delightful-facts-about-delaware)
-
 
 </div>
 </div>
