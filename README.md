@@ -362,7 +362,7 @@ Reddit  --> |saved| IFTTT
 links["Misc Links"] --> Feedly
 PDFs --> Feedly
 IFTTT --> Feedly
-Book -->|"Titles and notes"| Airtable
+Book -->|"Titles and notes"| Airtable{Airtable}
 </div>
 
 ### Video and GIF editing
