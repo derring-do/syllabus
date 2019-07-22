@@ -2,11 +2,11 @@
     <html>
     <head>
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-        <title>asdfasdfasd</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <title>Experimentation</title>
+        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
-        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        
         <style>
 .task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
 </style>
@@ -18,7 +18,7 @@
             }
         </style>
         
-        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
     </head>
     <body>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -29,24 +29,28 @@
 /* sticky h2 blurbs */
 h2 + aside {
     color: grey;
-    width: 30%;
+    width: 20%;
     background-color: white;
-    top: 50%;
+    top: 5rem;
     position: sticky;
-    float: left;
-    font-size: 1rem;
-    margin-top: 80%;
-    margin-left: -40%;
+    float: right;
+    font-size: .8rem;
+    /* margin-top: 50%; */
+    margin-right: -25%;
+    height: 30%;
 }
 
 /* scrollnav.js stuff */
 .container {
   display: flex;
+  padding: 0rem;
+  margin: 0rem;
+  flex-wrap: wrap;
 }
 
 .left {
-  width: 20%;
-  min-width: 250px;
+  width: 25%;
+  min-width: 300px;
   padding: 0rem;
   margin-top: 2rem;
 }
@@ -76,7 +80,16 @@ a.scroll-nav__link {}
 <div class="container">
 <div class="left"></div>
 <div class="right">
-<h2 id="asdfasdfasd">asdfasdfasd</h2>
+<p>General introductory text to online social research: <em>Bit by bit: social research in the digital age.</em> 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and &quot;What to Read Next&quot; references and exercises at end. The platform also has Hypothesis embedded, which is a <a href="https://web.hypothes.is/start/">generally useful plugin for all-purpose/cross-Internet annotation. (free account required)</a></p>
+<p><a href="https://www.bitbybitbook.com/en/1st-ed/preface">Read online</a> or <a href="http://id.lib.harvard.edu/alma/990152301880203941/catalog">request hard copy from Harvard Library</a>.</p>
+<ul>
+<li><a href="https://www.bitbybitbook.com/en/1st-ed/observing-behavior/characteristics/">2.3 Ten common characteristics of big data</a></li>
+<li><a href="https://www.bitbybitbook.com/en/1st-ed/observing-behavior/strategies/">2.4 Research strategies</a></li>
+<li><a href="https://www.bitbybitbook.com/en/1st-ed/asking-questions/">3 Asking Questions</a></li>
+<li><a href="https://www.bitbybitbook.com/en/1st-ed/running-experiments/">4 Running Experiments</a></li>
+<li><a href="https://www.bitbybitbook.com/en/1st-ed/ethics/">6 Ethics</a></li>
+</ul>
+<h2 id="Experimentation">Experimentation</h2>
 <aside>
 <ul>
 <li>A smattering of academic and industry best practices</li>
@@ -86,25 +99,14 @@ a.scroll-nav__link {}
 </aside>
 <h3 id="PhilosophyCulture">Philosophy/Culture</h3>
 <ol>
-<li>
-<p><a href="http://lukasvermeer.github.io/confidence/">So You Think You Can Test? (Simulation game by Lukas Vermeer)</a>: Read the instructions and play a few rounds in simulation mode</p>
-<ul>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
-</ul>
-</li>
-<li>
-<p><a href="https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb">Please, Please Don’t A/B Test That</a></p>
-</li>
-<li>
-<p><a href="https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4">The art of A/B testing</a></p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/1710.08217">Democratizing online controlled experiments at Booking.com</a></p>
-</li>
+<li><a href="http://lukasvermeer.github.io/confidence/">So You Think You Can Test? (Simulation game by Lukas Vermeer)</a>: Read the instructions and play a few rounds in simulation mode</li>
+<li><a href="https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb">Please, Please Don’t A/B Test That</a></li>
+<li><a href="https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4">The art of A/B testing</a></li>
+<li><a href="https://arxiv.org/abs/1710.08217">Democratizing online controlled experiments at Booking.com</a></li>
 </ol>
 <h3 id="Experimental-Design">Experimental Design</h3>
 <ol>
+<li><a href="usf_ab_testing_and_beyond.pdf">A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)</a></li>
 <li><a href="https://conductrics.com/PastStatisticalSignificance">Getting Past Statistical Significance: Foundations of AB Testing and Experimentation</a></li>
 <li><a href="https://hookedondata.org/guidelines-for-ab-testing/">Guidelines for A/B Testing</a></li>
 <li><a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">How Not To Run an A/B Test</a></li>
@@ -118,100 +120,299 @@ a.scroll-nav__link {}
 </li>
 <li><a href="https://booking.ai/leaky-abstractions-in-online-experimentation-platforms-ae4cf05013f9">Leaky Abstractions In Online Experimentation Platforms: Categorising Common Challenges</a>: How things go awry in online A/B testing</li>
 <li><a href="http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/">‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)</a></li>
-<li><a href="./resources/head2018_quasiexp.pdf">Head, K. &amp; Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478</a>: Overview of quasi-experimental designs</li>
+<li>Head, K. &amp; Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: <a href="./resources/head2018_quasiexp.pdf">link</a>: Overview of quasi-experimental designs</li>
 <li><a href="https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7">Experiments at Airbnb</a></li>
+<li><a href="https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests">Detecting Interference: An A/B Test of A/B Tests</a></li>
+<li><a href="OReilly_Understanding_Experimentation_Platforms.pdf">Understanding Experimentation Platforms</a>: Optimizely white paper</li>
 </ol>
-<h2 id="jlkjlkjlkjlkjlk">j;lkj;lkj;lkj;lkj;lk</h2>
+<h3 id="T-Testp-valueNHST-Discontents-and-Alternatives">T-Test/p-value/NHST Discontents and Alternatives</h3>
+<ol>
+<li>
+<p><a href="https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html">When the Revolution Came for Amy Cuddy</a></p>
+<ul>
+<li>&quot;As a young social psychologist, she played by the rules and won big: an influential study, a viral TED talk, a prestigious job at Harvard. Then, suddenly, the rules changed.&quot;</li>
+</ul>
+</li>
+<li>
+<p><a href="https://multithreaded.stitchfix.com/blog/2019/05/06/noninferiority/">Suffering from a Non-inferiority Complex?</a>: Good, simplified examples and illustrations</p>
+<ul>
+<li>&quot;Seaching 80% of your room for your backpack is a bit like performing a test with 80% power. If you don't find your backpack after searching only 80% of the room, should you conclude the backpack is not in your room?&quot;</li>
+</ul>
+</li>
+<li>
+<p><a href="https://codeascraft.com/2018/10/03/how-etsy-handles-peeking-in-a-b-testing/">How Etsy Handles Peeking in A/B Testing</a></p>
+</li>
+<li>
+<p>Berman, Ron and Pekelis, Leonid and Scott, Aisling and Van den Bulte, Christophe, p-Hacking and False Discovery in A/B Testing (December 11, 2018). Available at SSRN: <a href="https://ssrn.com/abstract=3204791">https://ssrn.com/abstract=3204791</a> or <a href="http://dx.doi.org/10.2139/ssrn.3204791">http://dx.doi.org/10.2139/ssrn.3204791</a></p>
+</li>
+<li>
+<p><a href="https://www.analytics-toolkit.com/whitepapers.php?paper=non-inferiority-designs-ab-testing">Non-Inferiority Designs in A/B Testing</a></p>
+</li>
+<li>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2446460/">Alternatives to the Randomized Controlled Trial</a></p>
+</li>
+<li>
+<p>Walker, E., &amp; Nowacki, A. S. (2010). Understanding equivalence and noninferiority testing. Journal of general internal medicine, 26(2), 192–196. doi:10.1007/s11606-010-1513-8: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3019319/">link</a></p>
+</li>
+<li>
+<p><a href="https://www.tripadvisor.com/engineering/reducing-a-b-test-measurement-variance-by-30/">Reducing A/B test measurement variance by 30%+ (TripAdvisor)</a></p>
+</li>
+<li>
+<p><a href="https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d">How Booking.com increases the power of online experiments with CUPED</a></p>
+</li>
+</ol>
+<h3 id="General-Stats-RefreshersReferences">General Stats Refreshers/References</h3>
+<ol>
+<li><a href="https://towardsdatascience.com/statistics-for-people-in-a-hurry-a9613c0ed0b">Statistics for people in a hurry</a></li>
+<li><a href="./resources/harrell2019_glossary_stats.pdf">Glossary of Statistical Terms (Frank Harrell)</a></li>
+<li><a href="https://statquest.org/video-index/">StatQuest</a>: Videos</li>
+<li><a href="http://nickchk.com/causalgraphs.html">Causal Inference Animated Plots</a>: This outlines some non-experimental designs and methods to visualize relationships in situations where a randomized control experiment isn't feasible.</li>
+<li>The Book of Why: The New Science of Cause and Effect. 2018. Judea Pearl and Dana Mackenzie: Gives historical context to why the language of frequentist hypothesis testing seems so constrained re: causal claims.
+<ol>
+<li><a href="http://bayes.cs.ucla.edu/WHY/why-ch1.pdf">Chapter 1: The Ladder of Causation</a></li>
+<li><a href="http://bayes.cs.ucla.edu/WHY/why-ch2.pdf">Chapter 2. From Buccaneers to Guinea Pigs: The Genesis of Causal Inference</a></li>
+</ol>
+</li>
+<li><a href="https://statmodeling.stat.columbia.edu/?s=%22applied+regression+final+exam%22">Andrew Gelman's Applied Regression exam questions and answers</a></li>
+</ol>
+<h2 id="Digital-Analytics">Digital Analytics</h2>
+<aside>
+None of that prepared him for the arena, the crowd, the tense hush, the towering puppets of light from a half-open service hatch framed a heap of discarded fiber optics and the robot gardener. No light but the muted purring of the console in faded pinks and yellows.
+</aside>
+<ol>
+<li><a href="https://www.seerinteractive.com/blog/a-beginners-guide-to-adobe-analytics/">A Beginner’s Guide to Adobe Analytics</a></li>
+<li><a href="https://www.seerinteractive.com/blog/the-definitive-guide-to-adobe-analysis-workspace/">The Definitive Guide to Adobe Analysis Workspace</a></li>
+<li><a href="https://www.digitaldatatactics.com/index.php/2016/09/07/why-and-why-not-use-a-data-layer/">Why (and why not) use a Data Layer?</a></li>
+<li><a href="https://33sticks.com/adobes-performancetiming-plugin-improvements-explanation/">Adobe’s performanceTiming plugin, with some improvements and an explanation</a></li>
+<li><a href="https://33sticks.com/33-tangents-episode-29-publishing-analytics-todd-schauman-the-christian-science-monitor/">33 Tangents – Episode #29 – Publishing Analytics with Todd Schauman of The Christian Science Monitor</a> (50 min)</li>
+<li><a href="http://www.analyticshour.io/all-podcast-episodes/">Digital Analytics Power Hour podcast</a>: Most episodes have transcripts. I'd just work your way through most of their catalog over the next six months -- make note of episodes that are particularly helpful or surprisingly not, and we can add them here.</li>
+<li>Neumann, Nico and Tucker, Catherine E. and Whitfield, Timothy, How Effective Is Black-box Digital Consumer Profiling and Audience Delivery?: Evidence from Field Studies (June 25, 2018). Available at SSRN: <a href="https://ssrn.com/abstract=3203131">https://ssrn.com/abstract=3203131</a> or <a href="http://dx.doi.org/10.2139/ssrn.3203131:">http://dx.doi.org/10.2139/ssrn.3203131:</a> <a href="./resources/neumann2018_consumer_profile.pdf">link</a>: This is about buying third-party data from brokers, but provides a good overview of the digital tracking technology in general</li>
+<li><a href="">#measure Slack</a>: free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.</li>
+</ol>
+<h2 id="Surveys">Surveys</h2>
+<aside>
+<p>Understand survey design principles for mitigating response biases</p>
+<p>Understand margin of error and be able to estimate it for a given survey</p>
+</aside>
+<h3 id="Questionnaire-Design">Questionnaire Design</h3>
+<ol>
+<li>
+<p><a href="https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk">Pew Research Center Methods 101 YouTube Playlist</a>: Currently 3 videos all ~5 min or less</p>
+</li>
+<li>
+<p><a href="https://psr.iq.harvard.edu/book/guides-survey-research">Harvard University Program on Survey Research</a></p>
+</li>
+<li>
+<p><a href="https://www.surveygizmo.com/resources/blog/representative-sample">Representative Samples: Does Sample Size Really Matter?</a></p>
+</li>
+<li>
+<p><a href="https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm">Margin of error</a></p>
+</li>
+<li>
+<p><a href="https://www.researchnow.com/blog/10-best-practices-survey-screening/">10 Best Practices in Survey Screening</a>: Don't terminate respondents after sensitive demographic questions</p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/mp/how-to-number-rating-scales/">Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)</a>: Understand unipolar vs. bipolar scales</p>
+</li>
+<li>
+<p><a href="https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4">How much do the numbers used in survey scales really matter?</a></p>
+<ul>
+<li>These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/">Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods</a></p>
+<ul>
+<li>The new study found compelling evidence that forced-choice questions yield more accurate results than select-all-that-apply lists.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/mp/presenting-your-rating-scales-numbered-versus-worded-lists/">Survey rating scales: numbered vs worded lists (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/mp/likert-scale/?ut_source1=mp&amp;ut_source2=survey_guidelines">What is a Likert scale? (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/curiosity/methodology-variance/">A survey resolution: Stop throwing away your variance! (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/curiosity/whats-best-way-design-matrix-question/">What’s the best way to design a matrix question? (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/curiosity/lets-agree-not-use-agreedisagree-questions/">Let’s agree NOT to use agree/disagree questions (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/curiosity/ask-survey-questions-sexual-orientation-gender-identity/">Why (and how!) to ask survey questions on sexual orientation and gender identity (SurveyMonkey)</a></p>
+</li>
+<li>
+<p>Huang, Jason &amp; Bowling, Nathan &amp; Liu, Mengqiao &amp; Li, Yuhui. (2014). Detecting Insufficient Effort Responding with an Infrequency Scale: Evaluating Validity and Participant Reactions. Journal of Business and Psychology. 10.1007/s10869-014-9357-6: <a href="https://www.researchgate.net/publication/261597350_Detecting_Insufficient_Effort_Responding_with_an_Infrequency_Scale_Evaluating_Validity_and_Participant_Reactions">link</a>: Understand what IER is, what it might look like, pros and cons of various countermeasures (longstring, psychometric antonym/synonym, Mahalanobis distance, manipulation/attention check)</p>
+<ul>
+<li><a href="https://github.com/SurveyMan/SurveyMan/wiki/Detecting-and-Deterring-Insufficient-Effort-Responding">Cliffnotes version</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/mp/nps-pros-cons-why-use-nps/">Net Promoter Score Pros and Cons: Why Use NPS? (SurveyMonkey)</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Net_Promoter">Net Promoter Score (Wikipedia)</a></p>
+</li>
+<li>
+<p><a href="https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2">Respectful Collection of Demographic Data</a></p>
+</li>
+<li>
+<p><a href="https://www.surveymonkey.com/curiosity/topic/survey-science/">SurveyMonkey's survey science blog</a></p>
+</li>
+<li>
+<p><a href="https://statmodeling.stat.columbia.edu/?s=%22Design+and+Analysis+of+Sample+Surveys%22">Andrew Gelman's Design and Analysis of Sample Surveys exam questions and answers</a></p>
+<ul>
+<li>&quot;18. A survey is taken of 100 undergraduates, 100 graduate students, and 100 continuing education students at a university. Assume a simple random sample within each group. Each student is asked to rate his or her satisfaction (on a 1–10 scale) with his or her experiences. Write the estimate and standard error of the average satisfaction of all the students at the university. Introduce notation as necessary for all the information needed to solve the problem.&quot;</li>
+</ul>
+</li>
+</ol>
+<h3 id="Translation-and-Internationalization">Translation and Internationalization</h3>
+<ol>
+<li><a href="http://www.pewresearch.org/methods/international-survey-research/questionnaire-design-and-translation/">Questionnaire design and translation (Pew)</a></li>
+<li><a href="http://www.pewresearch.org/methods/2015/11/12/the-unique-challenges-of-surveying-u-s-latinos/">The Unique Challenges of Surveying U.S. Latinos (Pew)</a>:</li>
+<li>Kleiner, B., Pan, Y., &amp; Bouic, J. (2009). The Impact of Instructions on Survey Translation: An Experimental Study. Survey Research Methods, 3(3), 113-122. doi: <a href="http://dx.doi.org/10.18148/srm/2009.v3i3.1563:">http://dx.doi.org/10.18148/srm/2009.v3i3.1563:</a> <a href="./resources/instructions-survey-translations.pdf">link</a>: Includes translator instructions template</li>
+<li><a href="./resources/gallup2017_worldwide_methodology.pdf">Gallup Worldwide Research Methodology and Codebook (2017)</a></li>
+</ol>
+<h3 id="PanelsRecruiting">Panels/Recruiting</h3>
+<ol>
+<li><a href="https://www.esomar.org/uploads/public/knowledge-and-standards/documents/ESOMAR-28-Questions-to-Help-Buyers-of-Online-Samples-September-2012.pdf">ESOMAR 28 Questions to Help Research Buyers of Online Samples</a>: Overview of terminology and considerations re: panel samples. Every reputable sample provider should have a document answering these questions.
+<ul>
+<li><a href="https://success.qualtrics.com/rs/qualtrics/images/ESOMAR%2028%202014.pdf">Qualtrics's ESOMAR responses</a></li>
+</ul>
+</li>
+<li>Anson, I. G. (2018). Taking the time? Explaining effortful participation among low-cost online survey participants. Research &amp; Politics. <a href="https://doi.org/10.1177/2053168018785483:">https://doi.org/10.1177/2053168018785483:</a> <a href="https://journals.sagepub.com/doi/full/10.1177/2053168018785483#articleCitationDownloadContainer">link</a></li>
+</ol>
+<h2 id="Web-Development-Privacy-and-Security">Web Development, Privacy, and Security</h2>
 <aside>
 <ul>
-<li>A smattering of academic and industry best practices</li>
-<li>Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation</li>
-<li>Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives</li>
+<li>Working knowledge of HTML, CSS, JavaScript, and other internet things for designing tests, debugging, customizing surveys and intercepts.</li>
+<li>Understand how to navigate the DOM to select elements to change and make needed changes</li>
+<li>Understand our stylesheet and when/how to use/preserve existing helper classes, esp. for mobile breakpoints (e.g., hide-for-small vs. small-only)</li>
+<li>Write code that is slightly more efficient than your average bear to minimize burden on the site; faster site = less likely that what we observe is due to difference in site loading time.</li>
+<li>Don't break the site</li>
 <li></li>
 </ul>
 </aside>
-<h3 id="PhilosophyCulture-1">Philosophy/Culture</h3>
+<h3 id="Web-Development">Web Development</h3>
 <ol>
-<li>
-<p><a href="http://lukasvermeer.github.io/confidence/">So You Think You Can Test? (Simulation game by Lukas Vermeer)</a>: Read the instructions and play a few rounds in simulation mode</p>
+<li><a href="https://varvy.com/pagespeed/display.html">How a webpage is loaded and displayed</a></li>
+<li><a href="https://info474-s17.github.io/book/introduction-to-html.html">Introduction to HTML</a></li>
+<li><a href="https://info474-s17.github.io/book/introduction-to-css.html">Introduction to CSS</a>
 <ul>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
+<li><a href="https://flukeout.github.io/">CSS Diner</a>: Interactive game to get used to CSS selectors</li>
 </ul>
 </li>
-<li>
-<p><a href="https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb">Please, Please Don’t A/B Test That</a></p>
-</li>
-<li>
-<p><a href="https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4">The art of A/B testing</a></p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/1710.08217">Democratizing online controlled experiments at Booking.com</a></p>
-</li>
-</ol>
-<h3 id="Experimental-Design-1">Experimental Design</h3>
-<ol>
-<li><a href="https://conductrics.com/PastStatisticalSignificance">Getting Past Statistical Significance: Foundations of AB Testing and Experimentation</a></li>
-<li><a href="https://hookedondata.org/guidelines-for-ab-testing/">Guidelines for A/B Testing</a></li>
-<li><a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">How Not To Run an A/B Test</a></li>
-<li><a href="http://elem.com/~btilly/ab-testing-multiple-looks/part1-rigorous.html">A/B Testing Rigorously (without losing your job)</a></li>
-<li><a href="https://towardsdatascience.com/chasing-statistical-ghosts-in-experimentation-3f393323a1c1">Chasing Statistical Ghosts in Experimentation</a> (3-part series):
-<ol>
-<li><a href="https://towardsdatascience.com/the-first-ghost-of-experimentation-its-either-significant-or-noise-b897e3058655">The first Ghost of Experimentation: It’s either significant or noise</a></li>
-<li><a href="https://towardsdatascience.com/the-second-ghost-of-experimentation-the-fallacy-of-session-based-metrics-fb65006d30ff">The second Ghost of Experimentation: The fallacy of session based metrics</a></li>
-<li><a href="https://towardsdatascience.com/the-third-ghost-of-experimentation-multiple-comparisons-65af360169a1">The third Ghost of Experimentation: Multiple comparisons</a></li>
-</ol>
-</li>
-<li><a href="https://booking.ai/leaky-abstractions-in-online-experimentation-platforms-ae4cf05013f9">Leaky Abstractions In Online Experimentation Platforms: Categorising Common Challenges</a>: How things go awry in online A/B testing</li>
-<li><a href="http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/">‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)</a></li>
-<li><a href="./resources/head2018_quasiexp.pdf">Head, K. &amp; Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478</a>: Overview of quasi-experimental designs</li>
-<li><a href="https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7">Experiments at Airbnb</a></li>
-</ol>
-<h2 id="Experimentation-alkds-jf-asdkjf-alds-losngdlas-jdlfjalsd">Experimentation, a;lkds jf, asdkjf a;lds, losngd;las jd;lfja;lsd</h2>
-<aside>
+<li><a href="https://info474-s17.github.io/book/responsive-css.html">Responsive CSS</a>
 <ul>
-<li>A smattering of academic and industry best practices</li>
-<li>Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation</li>
-<li>Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives</li>
-<li></li>
-</ul>
-</aside>
-<h3 id="PhilosophyCulture-2">Philosophy/Culture</h3>
-<ol>
-<li>
-<p><a href="http://lukasvermeer.github.io/confidence/">So You Think You Can Test? (Simulation game by Lukas Vermeer)</a>: Read the instructions and play a few rounds in simulation mode</p>
-<ul>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
-<li>Magna occaecat voluptate proident excepteur tempor ullamco dolor sit voluptate deserunt enim irure ullamco.</li>
+<li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a>: Interactive game to understand the flex framework</li>
 </ul>
 </li>
-<li>
-<p><a href="https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb">Please, Please Don’t A/B Test That</a></p>
-</li>
-<li>
-<p><a href="https://towardsdatascience.com/the-art-of-a-b-testing-5a10c9bb70a4">The art of A/B testing</a></p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/1710.08217">Democratizing online controlled experiments at Booking.com</a></p>
-</li>
-</ol>
-<h3 id="Experimental-Design-2">Experimental Design</h3>
+<li><a href="https://info474-s17.github.io/book/javascript.html">JavaScript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling">JavaScript control flow and error handling</a>: Write code that breaks usefully</li>
+<li>JavaScript Regex:
 <ol>
-<li><a href="https://conductrics.com/PastStatisticalSignificance">Getting Past Statistical Significance: Foundations of AB Testing and Experimentation</a></li>
-<li><a href="https://hookedondata.org/guidelines-for-ab-testing/">Guidelines for A/B Testing</a></li>
-<li><a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">How Not To Run an A/B Test</a></li>
-<li><a href="http://elem.com/~btilly/ab-testing-multiple-looks/part1-rigorous.html">A/B Testing Rigorously (without losing your job)</a></li>
-<li><a href="https://towardsdatascience.com/chasing-statistical-ghosts-in-experimentation-3f393323a1c1">Chasing Statistical Ghosts in Experimentation</a> (3-part series):
-<ol>
-<li><a href="https://towardsdatascience.com/the-first-ghost-of-experimentation-its-either-significant-or-noise-b897e3058655">The first Ghost of Experimentation: It’s either significant or noise</a></li>
-<li><a href="https://towardsdatascience.com/the-second-ghost-of-experimentation-the-fallacy-of-session-based-metrics-fb65006d30ff">The second Ghost of Experimentation: The fallacy of session based metrics</a></li>
-<li><a href="https://towardsdatascience.com/the-third-ghost-of-experimentation-multiple-comparisons-65af360169a1">The third Ghost of Experimentation: Multiple comparisons</a></li>
+<li><a href="https://www.debuggex.com/">Debuggex</a></li>
+<li><a href="https://regex101.com/">Regex101</a></li>
 </ol>
 </li>
-<li><a href="https://booking.ai/leaky-abstractions-in-online-experimentation-platforms-ae4cf05013f9">Leaky Abstractions In Online Experimentation Platforms: Categorising Common Challenges</a>: How things go awry in online A/B testing</li>
-<li><a href="http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/">‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)</a></li>
-<li><a href="./resources/head2018_quasiexp.pdf">Head, K. &amp; Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478</a>: Overview of quasi-experimental designs</li>
-<li><a href="https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7">Experiments at Airbnb</a></li>
+<li>
+<ol start="9">
+<li><a href="http://www.usabilityfirst.com/about-usability/accessibility/principles-of-accessible-and-universal-design/">Principles of Accessible and Universal Design</a></li>
+</ol>
+</li>
+<li>More JavaScript:
+Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anonymous functions, DOM navigation
+<ul>
+<li><a href="https://gist.github.com/caseywatts/c0cec1f89ccdb8b469b1">Making Bookmarklets</a></li>
+<li><a href="https://github.com/getify/You-Dont-Know-JS">https://github.com/getify/You-Dont-Know-JS</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-traverse-the-dom">https://www.digitalocean.com/community/tutorials/how-to-traverse-the-dom</a></li>
+<li><a href="https://github.com/tomquinonero/JSTheWeirdParts">Notes on &quot;Javascript: Understanding the Weird Parts&quot;</a></li>
+</ul>
+</li>
+<li><code>document.designMode = 'on'</code>: <a href="https://twitter.com/imac2/status/1135875294156480512">demo</a></li>
+</ol>
+<h3 id="Privacy">Privacy</h3>
+<p>Web privacy technology and policies are evolving, and, with them, analytics platforms adapt with various levels of transparency. What we might observe as a steep decline in visitors might actually be attributable to new browser policies. Some primers:</p>
+<ol>
+<li><a href="https://medium.com/@mshelton/what-does-private-browsing-mode-do-adfe5a70a8b1">What Does Private Browsing Mode Do?</a></li>
+<li><a href="https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018">GDPR</a></li>
+<li><a href="https://www.simoahava.com/analytics/itp-2-1-and-web-analytics/">ITP 2.1 and Web Analytics</a>: Intelligent Tracking Prevention (ITP) is Apple's version of privacy features for Safari</li>
+<li><a href="https://www.zdnet.com/article/google-chrome-to-support-same-site-cookies-get-anti-fingerprinting-protection/">Google announces two new privacy-focused features for Chrome at the I/O 2019 developer conference</a></li>
+<li><a href="https://www.zdnet.com/article/senators-introduce-bill-to-ban-dark-patterns-on-big-tech-platforms/">The nascent DETOUR ACT in Congress calls for data-collecting restrictions on websites with over 100 million active users</a></li>
+</ol>
+<h3 id="Security">Security</h3>
+<p>Generally, the site is up to date on the latest vulnerabilities, but when we write code for experiments or update (or fail to update) vendor libraries, we should try not to override any of the guardrails... Relevant topics from the <a href="https://cheatsheetseries.owasp.org/">OWASP Cheat Sheet Series (&quot;Life is too short -- AppSec is hard -- Cheat!&quot;)</a>:</p>
+<ol>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html">Third Party Javascript</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html">Session Management</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#tabnabbing">Tabnabbing</a></li>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#sandboxed-frames">iFrames</a></li>
+</ol>
+<h2 id="Data-Analysis-Visualization-and-Programming">Data Analysis, Visualization, and Programming</h2>
+<p>Best practices for organizing and visualizing; tutorials for scripted languages</p>
+<h3 id="Philosophy">Philosophy</h3>
+<ol>
+<li><a href="https://simplystatistics.org/2019/04/17/tukey-design-thinking-and-better-questions/">Tukey, Design Thinking, and Better Questions - Roger Peng</a>
+<ul>
+<li>Corollary: Tukey, John W. The Future of Data Analysis. Ann. Math. Statist. 33 (1962), no. 1, 1--67. doi:10.1214/aoms/1177704711. <a href="https://projecteuclid.org/euclid.aoms/1177704711:">https://projecteuclid.org/euclid.aoms/1177704711:</a> <a href="https://projecteuclid.org/download/pdf_1/euclid.aoms/1177704711">link</a></li>
+</ul>
+</li>
+</ol>
+<h3 id="ManagementProject-Planning">Management/Project Planning</h3>
+<ol>
+<li><a href="https://medium.com/gitbit/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2">11 Tips for Improving Productivity using OneNote</a></li>
+<li><a href="https://simplystatistics.org/2019/01/09/how-data-scientists-think-a-mini-case-study/">How Data Scientists Think - A Mini Case Study</a></li>
+<li><a href="https://www.jstatsoft.org/article/view/v059i10">Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10</a>: How to organize data</li>
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989">Data Organization in Spreadsheets</a></li>
+<li><a href="https://nicercode.github.io/blog/2013-04-05-projects/">Designing Projects</a>: directory layout example</li>
+<li><a href="https://info474-s17.github.io/book/markdown.html">Markdown</a></li>
+<li><a href="https://learnpythonthehardway.org/book/appendixa.html">Command line crash course</a></li>
+<li><a href="https://git-scm.com/book/en/v2">Pro Git</a>: Clone, commit, push, checkout branches, pull requests</li>
+</ol>
+<h3 id="Visualization">Visualization</h3>
+<ol>
+<li><a href="https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368">Mistakes, we've drawn a few: Learning from our errors in data visualization (The Economist)</a></li>
+<li><a href="http://attackwithnumbers.com/the-laws-of-shitty-dashboard">The laws of shitty dashboards</a></li>
+<li>Stephen Few's &quot;Show Me the Numbers: Designing Tables &amp; Graphs to Enlighten&quot; is available in <a href="http://id.lib.harvard.edu/alma/990147829160203941/catalog">hard copy (2012)</a> and an older version is available as workshop slides <a href="https://courses.washington.edu/info424/2007/readings/Show_Me_the_Numbers_v2.pdf">here</a> (they are decently annotated and standalone)</li>
+<li><a href="https://www.youtube.com/watch?v=whFb00Z5bQo&amp;feature=youtu.be">CRAP Talks #12 – Annabel St John-Lyle: Design Principles for Dashboards</a>: ~30 minute video</li>
+<li><a href="https://serialmentor.com/dataviz/">Fundamentals of Data Visualization (Claus Wilke)</a></li>
+<li><a href="https://paulvanderlaken.com/2018/12/17/avoid-bar-plots-for-continuous-data-do-this-instead/">Avoid bar plots for continuous data! Do this instead: (Paul van der Laken)</a></li>
+<li><a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a>: Weekly social data project in R organized by the R4DS online learning community. Each week, they post a raw dataset for people to explore and share via the <a href="https://twitter.com/hashtag/tidytuesday?f=tweets&amp;vertical=news&amp;lang=en">#tidytuesday Twitter hashtag.</a></li>
+<li><a href="https://medium.com/multiple-views-visualization-research-explained/uncertainty-visualization-explained-67e7a73f031b">Uncertainty + Visualization, Explained</a></li>
+</ol>
+<h3 id="R">R</h3>
+<p>Generally, having a well-defined project is the best way to learn. You'll end up searching for and finding more specific tutorials for the task at hand, but here are some places to get started:</p>
+<h4 id="Starting-out">Starting out</h4>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=go5Au01Jrvs">20-minute end-to-end data analysis by Hadley Wickham</a>: Crash course/example workflow; code/data linked in video description</li>
+<li><a href="https://github.com/STAT545-UBC/Classroom">UBC's STAT545 curriculum</a></li>
+<li><a href="http://www.machlis.com/R4Journalists/">Practical R for Mass Communication and Journalism</a>: Chapters 1-2 will get you through installation/setup</li>
+<li><a href="https://www.youtube.com/watch?v=E-Vvg8uzcVM&amp;list=PL4IzsxWztPdnyAKQQLxA4ucpaCLdsKvZw&amp;index=12&amp;t=0s">Wrangling data in the Tidyverse - Part 1</a> (1 hr 15 min)</li>
+<li><a href="https://rpubs.com/acolumbus/how-to-use-r-with-excel">How to Use R with Excel</a></li>
+<li><a href="https://districtdatalabs.silvrback.com/intro-to-r-for-microsoft-excel-users">Intro to R for Microsoft Excel Users</a></li>
+<li><a href="https://paulvanderlaken.com/2017/10/03/regular-expressions-in-r-part-1-introduction-and-base-r-functions/">Regular Expressions in R – Part 1: Introduction and base R functions</a></li>
+<li><a href="https://rmarkdown.rstudio.com/lesson-1.html">RMarkdown</a></li>
+<li><a href="https://www.youtube.com/channel/UCcKPp7AI7ZTBf60WqXo3Bpg/videos">Utah R Users Group YouTube channel</a>, starting with:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=yYncj2FUO20">Exploratory data analysis with the tidyverse</a> (40 min)</li>
+<li><a href="https://www.youtube.com/watch?v=BsoHElr7HpA">Intro to data visualization with R</a> (1 hour)</li>
+<li><a href="https://www.youtube.com/watch?v=pTpUp86-nwo">Branding and Automating Your Work with R Markdown</a> (47 min)</li>
+<li><a href="https://www.youtube.com/watch?v=jSERTNhdeMs">Debugging and Profiling</a> (1 hour)</li>
+</ul>
+</li>
+</ol>
+<h4 id="Fancier-stuff">Fancier stuff</h4>
+<ol>
+<li><a href="https://resources.rstudio.com/rstudio-conf-2019/the-lazy-and-easily-distracted-report-writer-using-rmarkdown-and-parameterised-reports">The lazy and easily distracted report writer: Using rmarkdown and parameterised reports - Mike K Smith</a> (15 min)</li>
+<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+<li><a href="https://resources.rstudio.com/rstudio-conf-2019/building-an-ab-testing-analytics-system-with-r-and-shiny">Building an A/B Testing Analytics System with R and Shiny (Emily Robinson , rstudio::conf 2019)</a></li>
+<li><a href="https://datasciencebox.org">Data Science in a Box</a>: All lecture slides in &quot;Exploring data&quot; section</li>
+<li><a href="./resources/r-marketing-research-analytics.pdf">R for Marketing Research and Analytics. Chapman &amp; Feit 2015</a>: Book with exercises</li>
+<li><a href="https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md">rstudio-conf 2019 Workshop materials</a></li>
+<li><a href="https://plot.ly/ggplot2/getting-started/">plotly: D3.js wrapper to make interactives from ggplot graphics</a></li>
 </ol>
 </div>
 </div>
@@ -228,12 +429,9 @@ const insertTarget = document.querySelector('.left');
 scrollnav.init(content, { 
   debug: false,
   insertTarget: insertTarget,
+  sections: "h2",
+  subSections: "h3",
   insertLocation: 'append'
-  });
-
-// fade aside on scroll
-$(window).scroll(function(){
-    $("aside").css("opacity", 1 - $(window).scrollTop() / 250);
   });
 </script>
     </body>
