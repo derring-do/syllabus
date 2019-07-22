@@ -109,7 +109,7 @@ a.scroll-nav__link {}
 
 # Syllabus
 
-https://derring-do.github.io/syllabus/
+[https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
 General introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
   
