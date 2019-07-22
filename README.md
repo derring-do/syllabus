@@ -12,15 +12,15 @@
   padding-bottom: .5rem;
 }
 
-a {
+.right a {
   color: #614db3 !important;
 }
 
-a:hover {
+.right a:hover {
   color: #7300e6 !important;
 }
 
-a:active, a:visited {
+.right a:active, a:visited {
   color: #400080 !important;
 }
 
@@ -348,10 +348,10 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
 <script>
-// showdown.js
-var text = document.querySelector('.right').innerHTML;
-converter = new showdown.Converter(); 
-document.querySelector('.right').innerHTML = converter.makeHtml(text);
+// // showdown.js
+// var text = document.querySelector('.right').innerHTML;
+// converter = new showdown.Converter(); 
+// document.querySelector('.right').innerHTML = converter.makeHtml(text);
 
 // scrollnav.js
 const content = document.querySelector('.right');
