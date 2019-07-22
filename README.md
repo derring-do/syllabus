@@ -14,7 +14,7 @@ h2 + aside {
     float: left;
     font-size: 1rem;
     margin-top: 80%;
-    margin-left: -50%;
+    margin-left: -40%;
 }
 
 /* right */
