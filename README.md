@@ -83,7 +83,7 @@ nav {
   position: sticky;
   top: 5rem;
   font-size: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.3rem;
   color: var(--nav-link-color) !important;
 }
 
