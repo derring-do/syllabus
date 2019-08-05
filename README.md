@@ -111,24 +111,44 @@ a.scroll-nav__link {}
 
 # Syllabus
 
+
+## Introduction
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
 This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
 
-General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
-  
-[Read online](https://www.bitbybitbook.com/en/1st-ed/preface) or [request hard copy from Harvard Library](http://id.lib.harvard.edu/alma/990152301880203941/catalog). 
-- [2.3 Ten common characteristics of big data](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/characteristics/)
-- [2.4 Research strategies](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/strategies/)
-- [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
-- [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
-- [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
-
-## Motivating Questions
+### Motivating Questions
 
 1. [We Launched a Paywall. It Worked! Mostly.](https://www.wired.com/story/wired-paywall-one-year-later/?verso=true)
 1. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
 1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
+
+### Guiding Texts
+
+1. [Hall, E. (2014). Just Enough Research (1st ed.). A Book Apart.](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=TN_sbo_s1_9780133964394&context=PC&vid=HVD2&search_scope=everything&tab=everything&lang=en_US)
+
+    <details><summary>Publisher Summary</summary>
+
+    Design research is a hard slog that takes years to learn and time away from the real work of design, right? Wrong. Good research is about asking more and better questions, and thinking critically about the answers. It’s something every member of your team can and should do, and which everyone can learn, quickly. And done well, it will save you time and money by reducing unknowns and creating a solid foundation to build the right thing, in the most effective way. In Just Enough Research, co-founder of Mule Design Erika Hall distills her experience into a brief cookbook of research methods. Learn how to discover your competitive advantages, spot your own blind spots and biases, understand and harness your findings, and why you should never, ever hold a focus group. You’ll start doing good research faster than you can plan your next pitch.
+    </details>
+
+    [Very quick read (<3 hours)](https://www.readinglength.com/book/isbn-1937557103) 
+
+1. [Salganik, M. (2018). Bit by bit : Social research in the digital age. Princeton, New Jersey: Princeton University Press.](https://www.bitbybitbook.com/en/1st-ed/preface)
+
+    <details><summary>Publisher Summary</summary>
+
+    An innovative and accessible guide to doing social research in the digital age. In just the past several years, we have witnessed the birth and rapid spread of social media, mobile phones, and numerous other digital marvels. In addition to changing how we live, these tools enable us to collect and process data about human behavior on a scale never before imaginable, offering entirely new approaches to core questions about social behavior. Bit by Bit is the key to unlocking these powerful methods-a landmark book that will fundamentally change how the next generation of social scientists and data scientists explores the world around us. Bit by Bit is the essential guide to mastering the key principles of doing social research in this fast-evolving digital age. In this comprehensive yet accessible book, Matthew Salganik explains how the digital revolution is transforming how social scientists observe behavior, ask questions, run experiments, and engage in mass collaborations. He provides a wealth of real-world examples throughout, and also lays out a principles-based approach to handling ethical challenges in the era of social media. Bit by Bit is an invaluable resource for social scientists who want to harness the research potential of big data and a must-read for data scientists interested in applying the lessons of social science to tomorrow's technologies.
+    </details>
+
+    General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
+  
+    [Read online](https://www.bitbybitbook.com/en/1st-ed/preface) or [request hard copy from Harvard Library](http://id.lib.harvard.edu/alma/990152301880203941/catalog). 
+    - [2.3 Ten common characteristics of big data](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/characteristics/)
+    - [2.4 Research strategies](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/strategies/)
+    - [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
+    - [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
+    - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
 
 ## Experimentation
 
