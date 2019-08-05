@@ -176,6 +176,7 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 1. [Detecting Interference: An A/B Test of A/B Tests](https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests)
 1. [Understanding Experimentation Platforms](OReilly_Understanding_Experimentation_Platforms.pdf): Optimizely white paper 
+1. [Top Challenges from the first Practical Online Controlled Experiments Summit](https://exp-platform.com/Documents/2019-FirstPracticalOnlineControlledExperimentsSummit_SIGKDDExplorations.pdf)
 
 ### Null hypothesis significance testing (NHST): Discontents and Alternatives
 1. [When the Revolution Came for Amy Cuddy](https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html)
