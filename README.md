@@ -4,6 +4,13 @@
 <script src="https://hypothes.is/embed.js" async></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.2.2/mermaid.min.js" integrity="sha256-LmEPUIr5lihB6056tR9UzFHSjyZ7Z0ba9Hj4ovAQcyE=" crossorigin="anonymous"></script>
 
+<!-- 
+TODO
+[] better layout/wrapping for mobile
+[] collapse h3 on small height
+-->
+
+
 <style>
 
 :root {
