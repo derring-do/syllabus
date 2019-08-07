@@ -88,7 +88,7 @@ a.scroll-nav__link {}
   }
   .container>.left {
     order: 1;
-    min-width: 270px;
+    min-width: 300px;
     padding-right: 2rem;
   }
   .container>.right {
