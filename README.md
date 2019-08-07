@@ -4,6 +4,12 @@
 <script src="https://hypothes.is/embed.js" async></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.2.2/mermaid.min.js" integrity="sha256-LmEPUIr5lihB6056tR9UzFHSjyZ7Z0ba9Hj4ovAQcyE=" crossorigin="anonymous"></script>
 
+<!-- 
+TODO
+[] better layout/wrapping for mobile
+[] collapse h3 on small height
+-->
+
 <style>
 
 :root {
@@ -83,7 +89,11 @@ nav {
   position: sticky;
   top: 5rem;
   font-size: 1rem;
+<<<<<<< HEAD
   line-height: 1.7rem;
+=======
+  line-height: 1.3rem;
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
   color: var(--nav-link-color) !important;
 }
 
@@ -111,10 +121,16 @@ a.scroll-nav__link {}
 
 # Syllabus
 
+<<<<<<< HEAD
+=======
+
+## Introduction
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
 This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
 
+<<<<<<< HEAD
 General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-0691158649) introductory text to online social research: *Bit by bit: social research in the digital age.* 2018. Salganik, Matthew J. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
   
 [Read online](https://www.bitbybitbook.com/en/1st-ed/preface) or [request hard copy from Harvard Library](http://id.lib.harvard.edu/alma/990152301880203941/catalog). 
@@ -123,6 +139,38 @@ General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-069115864
 - [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
 - [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
 - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
+=======
+### Motivating Questions
+
+1. [We Launched a Paywall. It Worked! Mostly.](https://www.wired.com/story/wired-paywall-one-year-later/?verso=true)
+1. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
+1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
+
+### Guiding Texts
+
+1. [Hall, E. (2014). Just Enough Research (1st ed.). A Book Apart.](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=TN_sbo_s1_9780133964394&context=PC&vid=HVD2&search_scope=everything&tab=everything&lang=en_US) Very quick read: [<3 hours](https://www.readinglength.com/book/isbn-1937557103)  
+
+    <details><summary>Publisher Summary</summary>
+
+    Design research is a hard slog that takes years to learn and time away from the real work of design, right? Wrong. Good research is about asking more and better questions, and thinking critically about the answers. It’s something every member of your team can and should do, and which everyone can learn, quickly. And done well, it will save you time and money by reducing unknowns and creating a solid foundation to build the right thing, in the most effective way. In Just Enough Research, co-founder of Mule Design Erika Hall distills her experience into a brief cookbook of research methods. Learn how to discover your competitive advantages, spot your own blind spots and biases, understand and harness your findings, and why you should never, ever hold a focus group. You’ll start doing good research faster than you can plan your next pitch.
+    </details>
+
+1. [Salganik, M. (2018). Bit by bit : Social research in the digital age. Princeton, New Jersey: Princeton University Press.](https://www.bitbybitbook.com/en/1st-ed/preface) Quick read: [<8 hours](https://www.readinglength.com/book/isbn-0691158649)
+
+    <details><summary>Publisher Summary</summary>
+
+    An innovative and accessible guide to doing social research in the digital age. In just the past several years, we have witnessed the birth and rapid spread of social media, mobile phones, and numerous other digital marvels. In addition to changing how we live, these tools enable us to collect and process data about human behavior on a scale never before imaginable, offering entirely new approaches to core questions about social behavior. Bit by Bit is the key to unlocking these powerful methods-a landmark book that will fundamentally change how the next generation of social scientists and data scientists explores the world around us. Bit by Bit is the essential guide to mastering the key principles of doing social research in this fast-evolving digital age. In this comprehensive yet accessible book, Matthew Salganik explains how the digital revolution is transforming how social scientists observe behavior, ask questions, run experiments, and engage in mass collaborations. He provides a wealth of real-world examples throughout, and also lays out a principles-based approach to handling ethical challenges in the era of social media. Bit by Bit is an invaluable resource for social scientists who want to harness the research potential of big data and a must-read for data scientists interested in applying the lessons of social science to tomorrow's technologies.
+    </details>
+
+    Introductory text to online social research. Chapters are concise and accessible with mathematical notes and "What to Read Next" references and exercises at end. The online platform also has Hypothesis embedded, which is a [generally useful plugin for all-purpose/cross-Internet annotation. (free account required)](https://web.hypothes.is/start/)
+  
+    [Read online](https://www.bitbybitbook.com/en/1st-ed/preface) or [request hard copy from Harvard Library](http://id.lib.harvard.edu/alma/990152301880203941/catalog). 
+    - [2.3 Ten common characteristics of big data](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/characteristics/)
+    - [2.4 Research strategies](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/strategies/)
+    - [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
+    - [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
+    - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
 
 ## Experimentation
 
@@ -134,12 +182,18 @@ General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-069115864
 
 </aside>
 
+<<<<<<< HEAD
 ### Philosophy/Culture
 1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): Read the instructions and play a few rounds in simulation mode
 2. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)
 3. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
 
 ### Experimental Design
+=======
+### Experimental Design
+1. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)
+1. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
 1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
 1. [Getting Past Statistical Significance: Foundations of AB Testing and Experimentation](https://conductrics.com/PastStatisticalSignificance)
 1. [Guidelines for A/B Testing](https://hookedondata.org/guidelines-for-ab-testing/) 
@@ -155,8 +209,14 @@ General and [quick (<8 hours)](https://www.readinglength.com/book/isbn-069115864
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 1. [Detecting Interference: An A/B Test of A/B Tests](https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests)
 1. [Understanding Experimentation Platforms](OReilly_Understanding_Experimentation_Platforms.pdf): Optimizely white paper 
+<<<<<<< HEAD
 
 ### T-Test/p-value/NHST Discontents and Alternatives
+=======
+1. [Top Challenges from the first Practical Online Controlled Experiments Summit](https://exp-platform.com/Documents/2019-FirstPracticalOnlineControlledExperimentsSummit_SIGKDDExplorations.pdf)
+
+### Null hypothesis significance testing (NHST): Discontents and Alternatives
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
 1. [When the Revolution Came for Amy Cuddy](https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html)
     - "As a young social psychologist, she played by the rules and won big: an influential study, a viral TED talk, a prestigious job at Harvard. Then, suddenly, the rules changed."
   
@@ -269,7 +329,12 @@ Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anon
     + https://github.com/getify/You-Dont-Know-JS
     + https://www.digitalocean.com/community/tutorials/how-to-traverse-the-dom
     + [Notes on "Javascript: Understanding the Weird Parts"](https://github.com/tomquinonero/JSTheWeirdParts)
+<<<<<<< HEAD
 1. `document.designMode = 'on'`: [demo](https://twitter.com/imac2/status/1135875294156480512)
+=======
+10. `document.designMode = 'on'`: [demo](https://twitter.com/imac2/status/1135875294156480512)
+11. [Browser Detection (and What to Do Instead)](http://jibbering.com/faq/notes/detect-browser/)
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
 
 ### Privacy
 Web privacy technology and policies are evolving, and, with them, analytics platforms adapt with various levels of transparency. What we might observe as a steep decline in visitors might actually be attributable to new browser policies. Some primers:
@@ -398,4 +463,8 @@ scrollnav.init(content, {
   subSections: "h3",
   insertLocation: 'append'
   });
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> 20b71ee3a862eeda83c1cce2e324a972c0e7aa55
