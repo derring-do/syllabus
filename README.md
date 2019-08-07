@@ -16,15 +16,16 @@ TODO
   --nav-link-color: grey; 
 }
 
-h2 {
-  text-transform: uppercase; 
-  padding: 1rem 0 1rem 0;
-}
-
+/* override github styles */
 .container-lg {
   max-width: unset;
   padding-left: 10% !important;
   padding-right: 10% !important;
+}
+
+h2 {
+  text-transform: uppercase; 
+  padding: 1rem 0 1rem 0;
 }
 
 .container {
@@ -94,7 +95,7 @@ a.scroll-nav__link {}
   }
   .container>.left {
     order: 1;
-    min-width: 300px;
+    min-width: 350px;
     padding-right: 2rem;
   }
   .container>.right {
