@@ -21,6 +21,10 @@ h2 {
   padding: 1rem 0 1rem 0;
 }
 
+.container-lg {
+  max-width: unset;
+}
+
 .container {
   display: flex;
   flex-direction: column;
