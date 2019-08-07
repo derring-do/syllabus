@@ -23,6 +23,8 @@ h2 {
 
 .container-lg {
   max-width: unset;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
 }
 
 .container {
