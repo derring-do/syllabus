@@ -6,8 +6,8 @@
 
 <!-- 
 TODO
-[] better layout/wrapping for mobile
 [] collapse h3 on small height
+[] fix asides
 -->
 
 <style>
