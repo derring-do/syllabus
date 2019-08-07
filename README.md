@@ -135,9 +135,6 @@ aside ul {
 <div class="left"></div>
 <div class="right">
 
-# Syllabus
-
-
 ## Introduction
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
