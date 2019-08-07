@@ -143,13 +143,13 @@ aside ul {
 
 This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
 
-### Motivating Questions
+#### Motivating Questions
 
 1. [We Launched a Paywall. It Worked! Mostly.](https://www.wired.com/story/wired-paywall-one-year-later/?verso=true)
 2. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
 3. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
 
-### Guiding Texts
+#### Guiding Texts
 
 1. [Hall, E. (2014). Just Enough Research (1st ed.). A Book Apart.](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=TN_sbo_s1_9780133964394&context=PC&vid=HVD2&search_scope=everything&tab=everything&lang=en_US) Very quick read: [<3 hours](https://www.readinglength.com/book/isbn-1937557103)  
 
