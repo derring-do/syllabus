@@ -296,7 +296,7 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 - Understand our stylesheet and when/how to use/preserve existing helper classes, esp. for mobile breakpoints (e.g., hide-for-small vs. small-only)
 - Write code that is slightly more efficient than your average bear to minimize burden on the site; faster site = less likely that what we observe is due to difference in site loading time. 
 - Don't break the site
-- 
+
 </aside>
 
 ### Web Development
