@@ -239,6 +239,8 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
 ### Platforms
 
+1. [Server-Side Vs. Client-Side A/B Testing Tools: What’s The Difference?](https://conversionxl.com/blog/server-side-vs-client-side-ab-testing-tools-whats-the-difference/)
+
 #### Adobe Target
 1. [Troubleshoot Target](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
 
