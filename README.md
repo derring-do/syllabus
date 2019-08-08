@@ -237,9 +237,9 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     1. [Chapter 2. From Buccaneers to Guinea Pigs: The Genesis of Causal Inference](http://bayes.cs.ucla.edu/WHY/why-ch2.pdf)
 1. [Andrew Gelman's Applied Regression exam questions and answers](https://statmodeling.stat.columbia.edu/?s=%22applied+regression+final+exam%22)
 
-## Platforms
+### Platforms
 
-### Adobe Target
+#### Adobe Target
 1. [Troubleshoot Target](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
 
 ## Digital Analytics
