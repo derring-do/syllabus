@@ -181,10 +181,13 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
 </aside>
 
-### Experimental Design
+### In Theory
+1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
+1. Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: [link](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
+
+## In Practice
 1. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)
 1. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
-1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
 1. [Getting Past Statistical Significance: Foundations of AB Testing and Experimentation](https://conductrics.com/PastStatisticalSignificance)
 1. [Guidelines for A/B Testing](https://hookedondata.org/guidelines-for-ab-testing/) 
 1. [How Not To Run an A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
@@ -195,7 +198,6 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     1. [The third Ghost of Experimentation: Multiple comparisons](https://towardsdatascience.com/the-third-ghost-of-experimentation-multiple-comparisons-65af360169a1)
 1. [Leaky Abstractions In Online Experimentation Platforms: Categorising Common Challenges](https://booking.ai/leaky-abstractions-in-online-experimentation-platforms-ae4cf05013f9): How things go awry in online A/B testing
 1. [‘Good jobs’ vs. ‘jobs’: Survey experiments can measure the effects of question wording – and more (Pew Research Center, 2019)](http://www.pewresearch.org/fact-tank/2019/01/29/good-jobs-vs-jobs-survey-experiments-can-measure-the-effects-of-question-wording-and-more/)
-1. Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: [link](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 1. [Experiments at Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 1. [Detecting Interference: An A/B Test of A/B Tests](https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests)
 1. [Understanding Experimentation Platforms](OReilly_Understanding_Experimentation_Platforms.pdf): Optimizely white paper 
