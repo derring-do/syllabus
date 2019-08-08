@@ -176,7 +176,9 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 <aside>
 
 - A smattering of academic and industry best practices
+
 - Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
+
 - Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
 
 </aside>
@@ -237,10 +239,6 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
 ## Digital Analytics
 
-<aside>
-None of that prepared him for the arena, the crowd, the tense hush, the towering puppets of light from a half-open service hatch framed a heap of discarded fiber optics and the robot gardener. No light but the muted purring of the console in faded pinks and yellows.
-</aside>
-
 1. [A Beginner’s Guide to Adobe Analytics](https://www.seerinteractive.com/blog/a-beginners-guide-to-adobe-analytics/)
 2. [The Definitive Guide to Adobe Analysis Workspace](https://www.seerinteractive.com/blog/the-definitive-guide-to-adobe-analysis-workspace/)
 3. [Why (and why not) use a Data Layer?](https://www.digitaldatatactics.com/index.php/2016/09/07/why-and-why-not-use-a-data-layer/)
@@ -248,7 +246,7 @@ None of that prepared him for the arena, the crowd, the tense hush, the towering
 5. [33 Tangents – Episode #29 – Publishing Analytics with Todd Schauman of The Christian Science Monitor](https://33sticks.com/33-tangents-episode-29-publishing-analytics-todd-schauman-the-christian-science-monitor/) (50 min)
 6. [Digital Analytics Power Hour podcast](http://www.analyticshour.io/all-podcast-episodes/): Most episodes have transcripts. I'd just work your way through most of their catalog over the next six months -- make note of episodes that are particularly helpful or surprisingly not, and we can add them here.
 7. Neumann, Nico and Tucker, Catherine E. and Whitfield, Timothy, How Effective Is Black-box Digital Consumer Profiling and Audience Delivery?: Evidence from Field Studies (June 25, 2018). Available at SSRN: https://ssrn.com/abstract=3203131 or http://dx.doi.org/10.2139/ssrn.3203131: [link](./resources/neumann2018_consumer_profile.pdf): This is about buying third-party data from brokers, but provides a good overview of the digital tracking technology in general
-8. [#measure Slack](): free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.
+8. [#measure Slack](https://www.measure.chat/): free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.
 
 ## Surveys
 <aside>
