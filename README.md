@@ -206,6 +206,10 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 1. [Detecting Interference: An A/B Test of A/B Tests](https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests)
 1. [Understanding Experimentation Platforms](OReilly_Understanding_Experimentation_Platforms.pdf): Optimizely white paper 
 1. [Top Challenges from the first Practical Online Controlled Experiments Summit](https://exp-platform.com/Documents/2019-FirstPracticalOnlineControlledExperimentsSummit_SIGKDDExplorations.pdf)
+1. [Diagnosing Sample Ratio Mismatch in Online Controlled Experiments: A Taxonomy and Rules of Thumb for Practitioners](https://www.kdd.org/kdd2019/accepted-papers/view/diagnosing-sample-ratio-mismatch-in-online-controlled-experiments-a-taxonom)
+    <blockquote>
+    One of the most useful indicators of a variety of data quality issues is a Sample Ratio Mismatch (SRM) ? the situation when the observed sample ratio in the experiment is different from the expected. Just like fever is a symptom for multiple types of illness, an SRM is a symptom for a variety of data quality issues. While a simple statistical check is used to detect an SRM, correctly identifying the root cause and preventing it from happening in the future is often extremely challenging and time consuming. Ignoring the SRM without knowing the root cause may result in a bad product modification appearing to be good and getting shipped to users, or vice versa. The goal of this paper is to make diagnosing, fixing, and preventing SRMs easier. 
+    </blockquote>
 
 ### Null hypothesis significance testing (NHST): Discontents and Alternatives
 1. [When the Revolution Came for Amy Cuddy](https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html)
