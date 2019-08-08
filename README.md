@@ -249,10 +249,6 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 8. [#measure Slack](https://www.measure.chat/): free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.
 
 ## Surveys
-<aside>
-Understand survey design principles for mitigating response biases
-Understand margin of error and be able to estimate it for a given survey
-</aside>
 
 ### Questionnaire Design
 1. [Pew Research Center Methods 101 YouTube Playlist](https://www.youtube.com/playlist?list=PLZ9z-Af5ISavJpPlvdMU4T-etIDOUmldk): Currently 3 videos all ~5 min or less
