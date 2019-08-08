@@ -186,6 +186,10 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 1. Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: [link](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 
 ## In Practice
+1. [Three key checklists and remedies for trustworthy analysis of online controlled experiments at scale](https://dl.acm.org/citation.cfm?id=3339916) or [summary blog post](https://blog.acolyer.org/2019/07/10/three-key-checklists-and-remedies-for-oces/)
+    <blockquote>
+    "experiment analysis has traditionally been done by experienced data analysts and scientists that closely monitored experiments throughout their lifecycle. Depending solely on scarce experts, however, is neither scalable nor bulletproof. To democratize experimentation, analysis should be streamlined and meticulously performed by engineers, managers, or others responsible for the development of a product."
+    </blockquote>
 1. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)
 1. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
 1. [Getting Past Statistical Significance: Foundations of AB Testing and Experimentation](https://conductrics.com/PastStatisticalSignificance)
