@@ -254,6 +254,15 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 6. [Digital Analytics Power Hour podcast](http://www.analyticshour.io/all-podcast-episodes/): Most episodes have transcripts. I'd just work your way through most of their catalog over the next six months -- make note of episodes that are particularly helpful or surprisingly not, and we can add them here.
 7. Neumann, Nico and Tucker, Catherine E. and Whitfield, Timothy, How Effective Is Black-box Digital Consumer Profiling and Audience Delivery?: Evidence from Field Studies (June 25, 2018). Available at SSRN: https://ssrn.com/abstract=3203131 or http://dx.doi.org/10.2139/ssrn.3203131: [link](./resources/neumann2018_consumer_profile.pdf): This is about buying third-party data from brokers, but provides a good overview of the digital tracking technology in general
 8. [#measure Slack](https://www.measure.chat/): free community for people working in digital analytics, broadly defined; includes channels for specific Adobe products, general data science, R and statistics, Google Analytics, testing methodology, etc. Must submit form to receive invitation.
+9. [Data clean rooms](https://adexchanger.com/platforms/facebook-shares-audience-data-via-carefully-controlled-clean-rooms/)
+
+    <blockquote>
+    This is how it works in the advertising context: A marketer or agency loads a virgin computer or device – one that’s never been   connected to the internet before – with its first-party data, like an email list, for example. A second clean machine on the Facebook side is loaded with impression-level and non-PII campaign data.
+    
+    The machines can’t ever have touched the internet so that there’s no possibility of outside interference or interception of the data.
+
+    The proprietary data coming from Facebook is then combined with the advertiser’s first-party data, matches are made and the data is analyzed to extract aggregated insights that one or the other couldn’t gather on its own.
+    </blockquote>
 
 ## Surveys
 
