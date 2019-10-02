@@ -263,6 +263,7 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
     The proprietary data coming from Facebook is then combined with the advertiser’s first-party data, matches are made and the data is analyzed to extract aggregated insights that one or the other couldn’t gather on its own.
     </blockquote>
+10. [#123: Ad Fraud with Dr. Augustine Fou](https://www.analyticshour.io/2019/09/10/123-ad-fraud-with-dr-augustine-fou/)
 
 ## Surveys
 
