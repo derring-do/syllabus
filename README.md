@@ -337,6 +337,7 @@ Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anon
     + [Notes on "Javascript: Understanding the Weird Parts"](https://github.com/tomquinonero/JSTheWeirdParts)
 10. `document.designMode = 'on'`: [demo](https://twitter.com/imac2/status/1135875294156480512)
 11. [Browser Detection (and What to Do Instead)](http://jibbering.com/faq/notes/detect-browser/)
+12. [Why is getElementsByTagName() faster than querySelectorAll()?](https://humanwhocodes.com/blog/2010/09/28/why-is-getelementsbytagname-faster-that-queryselectorall/)
 
 ### Privacy
 Web privacy technology and policies are evolving, and, with them, analytics platforms adapt with various levels of transparency. What we might observe as a steep decline in visitors might actually be attributable to new browser policies. Some primers:
