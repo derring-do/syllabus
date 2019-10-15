@@ -418,6 +418,10 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 Unless otherwise noted, these are free and/or open source with no account creation required. For some of these, a tradeoff of the ease of use is the lack of security re: proprietary data as well as limited persistence, so be vigilant! 
 
 ### Planning, Sketching, Prototyping
+1. [VisBug](https://medium.com/google-design/visbug-101-d2636120f8d7): Chrome Extension that adds a design toolbar to any webpage for easier WYSIWIG mock-ups and inspection.
+
+![VisBug demo gif](https://miro.medium.com/max/970/1*D55BGi8Gkn9C-PG01gX9Qg.gif)
+
 1. [Aggie](https://aggie.io/) and [AWW App](https://awwapp.com/): Collaborative painting/whiteboarding
 1. [GlooMaps](https://www.gloomaps.com/): Visual Sitemap Tool
 1. [wireframe.cc](https://wireframe.cc/): Minimal wireframing
