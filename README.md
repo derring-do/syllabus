@@ -324,6 +324,7 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 4. [Responsive CSS](https://info474-s17.github.io/book/responsive-css.html)
     - [Flexbox Froggy](https://flexboxfroggy.com/): Interactive game to understand the flex framework
 5. [JavaScript](https://info474-s17.github.io/book/javascript.html)
+1. [The Vanilla JS Toolkit](https://vanillajstoolkit.com/reference/): "A quick reference for commonly used JavaScript methods and browser APIs."
 6. [JavaScript control flow and error handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling): Write code that breaks usefully 
 7. JavaScript Regex:
     1. [Debuggex](https://www.debuggex.com/)
