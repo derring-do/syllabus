@@ -108,11 +108,17 @@ a.scroll-nav__link {}
 
 This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
 
-#### Motivating Questions
+## Motivating Questions
+
+### Digital Publishing
 
 1. [We Launched a Paywall. It Worked! Mostly.](https://www.wired.com/story/wired-paywall-one-year-later/?verso=true)
-2. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
-3. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
+1. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
+1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
+1. [One subscriber or 48,000 pageviews: Why every journalist should know the “unit economics” of their content](https://www.niemanlab.org/2019/10/one-subscriber-or-48000-pageviews-why-every-journalist-should-know-the-unit-economics-of-their-content)
+1. [Digital Pay-Meter Playbook: How Today’s News Publishers Can Use Data, Best Practices, and Test-and-Learn Tactics To Build Better Pay-Meters](https://www.lenfestinstitute.org/wp-content/uploads/2019/08/Paymeter-Playbook-August-2019.pdf)
+1. [COPE: Create Once, Publish Everywhere (NPR)](https://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
+1. [The next business revolution: American business schools are reinventing the MBA](https://www.economist.com/business/2019/11/02/american-business-schools-are-reinventing-the-mba)
 
 #### Guiding Texts
 
@@ -138,6 +144,12 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     - [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
     - [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
     - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
+
+1. The Big Book of Dashboards
+    - Ch. 1: Data Visualization: A Primer
+    - Ch. 6: Ranking by Now, Comparing with Then
+    - Ch. 24: Showing Churn or Turnover
+    - Glossary of Chart Types (good reference for Google searches, e.g. "[type of chart] in [programming language/viz tool]" 
 
 ## Experimentation
 
