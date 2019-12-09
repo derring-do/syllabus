@@ -7,7 +7,6 @@
 <!-- 
 TODO
 [] collapse h3 on small height
-[] fix asides
 -->
 
 <style>
@@ -59,10 +58,6 @@ h2 {
   color: #400080 !important;
 }
 
-aside {
-  color: grey;
-}
-
 /* scrollnav.js stuff */
 nav {
   position: sticky;
@@ -101,33 +96,6 @@ a.scroll-nav__link {}
   .container>.right {
     order: 2;
   }
-
-  /* sticky asides */
-aside {
-    width: 20%;
-    background-color: white;
-    top: 5rem;
-    position: sticky;
-    float: right;
-    font-size: .8rem;
-    /* margin-top: 50%; */
-    margin-right: -25%;
-    height: 30%;
-    font-style: italic;
-    font-family: serif;
-    padding-left: 1rem;
-}
-
-aside:before {
-  content: "                                                   \A";
-  white-space: pre;
-  border-top: 1px solid grey;
-}
-
-aside ul {
-  padding-left: 1rem;
-}
-
 }
 </style>
 
@@ -172,16 +140,6 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
 
 ## Experimentation
-
-<aside>
-
-- A smattering of academic and industry best practices
-
-- Understand what a p-value is and is not, p-hacking and False Discovery Rate, Type 1 vs. Type 2 errors, sample size calculation
-
-- Understand the pros and cons of t-tests/p-value/NHST-based testing frameworks and alternatives
-
-</aside>
 
 ### In Theory
 1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
@@ -306,15 +264,11 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
 ## Web Development, Privacy, and Security
 
-<aside>
-
 - Working knowledge of HTML, CSS, JavaScript, and other internet things for designing tests, debugging, customizing surveys and intercepts. 
 - Understand how to navigate the DOM to select elements to change and make needed changes
 - Understand our stylesheet and when/how to use/preserve existing helper classes, esp. for mobile breakpoints (e.g., hide-for-small vs. small-only)
 - Write code that is slightly more efficient than your average bear to minimize burden on the site; faster site = less likely that what we observe is due to difference in site loading time. 
 - Don't break the site
-
-</aside>
 
 ### Web Development
 1. [How a webpage is loaded and displayed](https://varvy.com/pagespeed/display.html)
