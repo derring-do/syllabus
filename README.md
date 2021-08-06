@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
-<script src="https://hypothes.is/embed.js" async></script>
+<!-- <script src="https://hypothes.is/embed.js" async></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.2.2/mermaid.min.js" integrity="sha256-LmEPUIr5lihB6056tR9UzFHSjyZ7Z0ba9Hj4ovAQcyE=" crossorigin="anonymous"></script>
 
 <!-- 
@@ -106,29 +106,35 @@ a.scroll-nav__link {}
 ## Introduction
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
-This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do. 
+This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do.
 
-## Motivating Questions
+<!-- hide the parent of every list item whose href doesn't have annotation
+
+<button onclick='document.querySelector("cc").parentNode.parentElement.style.display != "none" ? document.querySelector("cc").parentNode.parentElement.style.display = "none" : document.querySelector("cc").parentNode.parentElement.style.display = "list-item"'>click me</button> -->
+
+## Motivating Questions by Industry
 
 ### Digital Publishing
 
+<details> 
+<summary> Paywalls, subscriptions, newsletters </summary> 
+
 1. [We Launched a Paywall. It Worked! Mostly.](https://www.wired.com/story/wired-paywall-one-year-later/?verso=true)
 1. [Be smart: How Axios drives engagement with its email newsletters through user-level data](https://www.niemanlab.org/2019/06/be-smart-how-axios-drives-engagement-with-its-email-newsletters-through-user-level-data/)
-1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
 1. [One subscriber or 48,000 pageviews: Why every journalist should know the “unit economics” of their content](https://www.niemanlab.org/2019/10/one-subscriber-or-48000-pageviews-why-every-journalist-should-know-the-unit-economics-of-their-content)
 1. [Digital Pay-Meter Playbook: How Today’s News Publishers Can Use Data, Best Practices, and Test-and-Learn Tactics To Build Better Pay-Meters](https://www.lenfestinstitute.org/wp-content/uploads/2019/08/Paymeter-Playbook-August-2019.pdf)
 1. [COPE: Create Once, Publish Everywhere (NPR)](https://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
 1. [The next business revolution: American business schools are reinventing the MBA](https://www.economist.com/business/2019/11/02/american-business-schools-are-reinventing-the-mba)
+</details>
 
-#### Guiding Texts
+## Experimentation
 
-1. [Hall, E. (2014). Just Enough Research (1st ed.). A Book Apart.](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=TN_sbo_s1_9780133964394&context=PC&vid=HVD2&search_scope=everything&tab=everything&lang=en_US) Very quick read: [<3 hours](https://www.readinglength.com/book/isbn-1937557103)  
+### In Theory
+1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf) 
 
-    <details><summary>Publisher Summary</summary>
+1. Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: [link](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
 
-    Design research is a hard slog that takes years to learn and time away from the real work of design, right? Wrong. Good research is about asking more and better questions, and thinking critically about the answers. It’s something every member of your team can and should do, and which everyone can learn, quickly. And done well, it will save you time and money by reducing unknowns and creating a solid foundation to build the right thing, in the most effective way. In Just Enough Research, co-founder of Mule Design Erika Hall distills her experience into a brief cookbook of research methods. Learn how to discover your competitive advantages, spot your own blind spots and biases, understand and harness your findings, and why you should never, ever hold a focus group. You’ll start doing good research faster than you can plan your next pitch.
-    </details>
-
+### In Practice
 1. [Salganik, M. (2018). Bit by bit : Social research in the digital age. Princeton, New Jersey: Princeton University Press.](https://www.bitbybitbook.com/en/1st-ed/preface) Quick read: [<8 hours](https://www.readinglength.com/book/isbn-0691158649)
 
     <details><summary>Publisher Summary</summary>
@@ -144,20 +150,14 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     - [3 Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/)
     - [4 Running Experiments](https://www.bitbybitbook.com/en/1st-ed/running-experiments/)
     - [6 Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)
+    
+1. [Hall, E. (2014). Just Enough Research (1st ed.). A Book Apart.](https://hollis.harvard.edu/primo-explore/fulldisplay?docid=TN_sbo_s1_9780133964394&context=PC&vid=HVD2&search_scope=everything&tab=everything&lang=en_US) Very quick read: [<3 hours](https://www.readinglength.com/book/isbn-1937557103) 
 
-1. The Big Book of Dashboards
-    - Ch. 1: Data Visualization: A Primer
-    - Ch. 6: Ranking by Now, Comparing with Then
-    - Ch. 24: Showing Churn or Turnover
-    - Glossary of Chart Types (good reference for Google searches, e.g. "[type of chart] in [programming language/viz tool]" 
+    <details><summary>Publisher Summary</summary>
 
-## Experimentation
-
-### In Theory
-1. [A/B Testing and Beyond: Designed Experiments for Data Scientists (The University of San Francisco's Data Institute)](usf_ab_testing_and_beyond.pdf)
-1. Head, K. & Harsin, A. (2017). Quasi-experimental design. In M. Allen (Ed.), The sage encyclopedia of communication research methods (pp. 1384-1387). Thousand Oaks, CA: SAGE Publications, Inc doi: 10.4135/9781483381411.n478: [link](./resources/head2018_quasiexp.pdf): Overview of quasi-experimental designs
-
-### In Practice
+    Design research is a hard slog that takes years to learn and time away from the real work of design, right? Wrong. Good research is about asking more and better questions, and thinking critically about the answers. It’s something every member of your team can and should do, and which everyone can learn, quickly. And done well, it will save you time and money by reducing unknowns and creating a solid foundation to build the right thing, in the most effective way. In Just Enough Research, co-founder of Mule Design Erika Hall distills her experience into a brief cookbook of research methods. Learn how to discover your competitive advantages, spot your own blind spots and biases, understand and harness your findings, and why you should never, ever hold a focus group. You’ll start doing good research faster than you can plan your next pitch.
+    </details>
+1. [So You Think You Can Test? (Simulation game by Lukas Vermeer)](http://lukasvermeer.github.io/confidence/): "Decision making under uncertainty is complicated business. This game aims to make decision makers more aware of the complex trade off between indecision and acting on insufficient information." (Read the instructions and play a few rounds in simulation mode)
 1. [Three key checklists and remedies for trustworthy analysis of online controlled experiments at scale](https://dl.acm.org/citation.cfm?id=3339916) or [summary blog post](https://blog.acolyer.org/2019/07/10/three-key-checklists-and-remedies-for-oces/)
     <blockquote>
     "experiment analysis has traditionally been done by experienced data analysts and scientists that closely monitored experiments throughout their lifecycle. Depending solely on scarce experts, however, is neither scalable nor bulletproof. To democratize experimentation, analysis should be streamlined and meticulously performed by engineers, managers, or others responsible for the development of a product."
@@ -165,10 +165,10 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 1. [Please, Please Don’t A/B Test That](https://patreonhq.com/please-please-dont-a-b-test-that-980a9630e4fb)
 1. [Democratizing online controlled experiments at Booking.com](https://arxiv.org/abs/1710.08217)
 1. [Getting Past Statistical Significance: Foundations of AB Testing and Experimentation](https://conductrics.com/PastStatisticalSignificance)
-1. [Guidelines for A/B Testing](https://hookedondata.org/guidelines-for-ab-testing/) 
-1. [How Not To Run an A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
+1. <cc></cc> [Guidelines for A/B Testing](https://hookedondata.org/guidelines-for-ab-testing/) 
+1.  <cc></cc>[How Not To Run an A/B Test](http://www.evanmiller.org/how-not-to-run-an-ab-test.html)
 1. [A/B Testing Rigorously (without losing your job)](http://elem.com/~btilly/ab-testing-multiple-looks/part1-rigorous.html)
-1. [Chasing Statistical Ghosts in Experimentation](https://towardsdatascience.com/chasing-statistical-ghosts-in-experimentation-3f393323a1c1) (3-part series):
+1.  <cc></cc>[Chasing Statistical Ghosts in Experimentation](https://towardsdatascience.com/chasing-statistical-ghosts-in-experimentation-3f393323a1c1) (3-part series):
     1. [The first Ghost of Experimentation: It’s either significant or noise](https://towardsdatascience.com/the-first-ghost-of-experimentation-its-either-significant-or-noise-b897e3058655)
     1. [The second Ghost of Experimentation: The fallacy of session based metrics](https://towardsdatascience.com/the-second-ghost-of-experimentation-the-fallacy-of-session-based-metrics-fb65006d30ff)
     1. [The third Ghost of Experimentation: Multiple comparisons](https://towardsdatascience.com/the-third-ghost-of-experimentation-multiple-comparisons-65af360169a1)
@@ -184,18 +184,18 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     </blockquote>
 
 ### Null hypothesis significance testing (NHST): Discontents and Alternatives
-1. [When the Revolution Came for Amy Cuddy](https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html)
+1.  <cc></cc>[When the Revolution Came for Amy Cuddy](https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html)
     - "As a young social psychologist, she played by the rules and won big: an influential study, a viral TED talk, a prestigious job at Harvard. Then, suddenly, the rules changed."
   
-1. [Suffering from a Non-inferiority Complex?](https://multithreaded.stitchfix.com/blog/2019/05/06/noninferiority/): Good, simplified examples and illustrations
+1.  <cc></cc>[Suffering from a Non-inferiority Complex?](https://multithreaded.stitchfix.com/blog/2019/05/06/noninferiority/): Good, simplified examples and illustrations
    - "Seaching 80% of your room for your backpack is a bit like performing a test with 80% power. If you don't find your backpack after searching only 80% of the room, should you conclude the backpack is not in your room?"
-1. [How Etsy Handles Peeking in A/B Testing](https://codeascraft.com/2018/10/03/how-etsy-handles-peeking-in-a-b-testing/)
+1.  <cc></cc>[How Etsy Handles Peeking in A/B Testing](https://codeascraft.com/2018/10/03/how-etsy-handles-peeking-in-a-b-testing/)
 1. Berman, Ron and Pekelis, Leonid and Scott, Aisling and Van den Bulte, Christophe, p-Hacking and False Discovery in A/B Testing (December 11, 2018). Available at SSRN: https://ssrn.com/abstract=3204791 or http://dx.doi.org/10.2139/ssrn.3204791
 1. [Non-Inferiority Designs in A/B Testing](https://www.analytics-toolkit.com/whitepapers.php?paper=non-inferiority-designs-ab-testing)
 1. [Alternatives to the Randomized Controlled Trial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2446460/)
 1. Walker, E., & Nowacki, A. S. (2010). Understanding equivalence and noninferiority testing. Journal of general internal medicine, 26(2), 192–196. doi:10.1007/s11606-010-1513-8: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3019319/)
-1. [Reducing A/B test measurement variance by 30%+ (TripAdvisor)](https://www.tripadvisor.com/engineering/reducing-a-b-test-measurement-variance-by-30/)
-1.  [How Booking.com increases the power of online experiments with CUPED](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d)
+1.  <cc></cc>[Reducing A/B test measurement variance by 30%+ (TripAdvisor)](https://www.tripadvisor.com/engineering/reducing-a-b-test-measurement-variance-by-30/)
+1.  <cc></cc>[How Booking.com increases the power of online experiments with CUPED](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d)
 
 ### General Stats Refreshers/References
 1. [Statistics for people in a hurry](https://towardsdatascience.com/statistics-for-people-in-a-hurry-a9613c0ed0b)
@@ -209,10 +209,16 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 
 ### Platforms
 
-1. [Server-Side Vs. Client-Side A/B Testing Tools: What’s The Difference?](https://conversionxl.com/blog/server-side-vs-client-side-ab-testing-tools-whats-the-difference/)
+1.  <cc></cc>[Server-Side Vs. Client-Side A/B Testing Tools: What’s The Difference?](https://conversionxl.com/blog/server-side-vs-client-side-ab-testing-tools-whats-the-difference/)
 
 #### Adobe Target
 1. [Troubleshoot Target](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+
+#### Google
+
+#### Optimizely
+
+#### LaunchDarkly
 
 ## Digital Analytics
 
@@ -244,7 +250,7 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
 4. [Margin of error](https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/wp/m/Margin_of_error.htm)
 5. [10 Best Practices in Survey Screening](https://www.researchnow.com/blog/10-best-practices-survey-screening/): Don't terminate respondents after sensitive demographic questions
 6. [Yes, There is a Right and Wrong Way to Number Rating Scales (SurveyMonkey)](https://www.surveymonkey.com/mp/how-to-number-rating-scales/): Understand unipolar vs. bipolar scales
-7. [How much do the numbers used in survey scales really matter?](https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4)
+7.  <cc></cc>[How much do the numbers used in survey scales really matter?](https://medium.com/pew-research-center-decoded/how-much-do-the-numbers-used-in-survey-scales-really-matter-227d84ab2a13?source=rss----9ba5753f8834---4)
     - These outcomes suggest that when a scale is easily divided in half — for example, when the maximum value is 6 rather than 7 — it’s more likely for respondents to select the midpoint. Previous research has found that respondents are likely to assume that half the top endpoint is a scale’s midpoint, so when half the top endpoint is not an answer option (e.g., 3.5 on the 1–7 scale), respondents seeking the central point on the scale may sometime choose 3 (not the scale midpoint) and sometimes choose 4 (the actual scale midpoint). Those who received the 0–6 scale could more easily find the midpoint (3) by halving the top endpoint.
 8. [Comparing Forced-Choice and Select-All Online Survey Responses - Pew Research Center Methods](https://www.pewresearch.org/methods/2019/05/09/when-online-survey-respondents-only-select-some-that-apply/)
    - The new study found compelling evidence that forced-choice questions yield more accurate results than select-all-that-apply lists. 
@@ -258,13 +264,13 @@ This is a cursorily-curated, ever-evolving brain dump of resources related to th
     + [Cliffnotes version](https://github.com/SurveyMan/SurveyMan/wiki/Detecting-and-Deterring-Insufficient-Effort-Responding)
 16. [Net Promoter Score Pros and Cons: Why Use NPS? (SurveyMonkey)](https://www.surveymonkey.com/mp/nps-pros-cons-why-use-nps/)
 17. [Net Promoter Score (Wikipedia)](https://en.wikipedia.org/wiki/Net_Promoter)
-18. [Respectful Collection of Demographic Data](https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2)
+18.  <cc></cc>[Respectful Collection of Demographic Data](https://medium.com/@anna.sarai.rosenberg/respectful-collection-of-demographic-data-56de9fcb80e2)
 19. [SurveyMonkey's survey science blog](https://www.surveymonkey.com/curiosity/topic/survey-science/)
 20. [Andrew Gelman's Design and Analysis of Sample Surveys exam questions and answers](https://statmodeling.stat.columbia.edu/?s=%22Design+and+Analysis+of+Sample+Surveys%22)
     -  "18. A survey is taken of 100 undergraduates, 100 graduate students, and 100 continuing education students at a university. Assume a simple random sample within each group. Each student is asked to rate his or her satisfaction (on a 1–10 scale) with his or her experiences. Write the estimate and standard error of the average satisfaction of all the students at the university. Introduce notation as necessary for all the information needed to solve the problem."
 
 ### Translation and Internationalization
-1. [Questionnaire design and translation (Pew)](http://www.pewresearch.org/methods/international-survey-research/questionnaire-design-and-translation/)
+1. <cc></cc>[Questionnaire design and translation (Pew)](http://www.pewresearch.org/methods/international-survey-research/questionnaire-design-and-translation/)
 2. [The Unique Challenges of Surveying U.S. Latinos (Pew)](http://www.pewresearch.org/methods/2015/11/12/the-unique-challenges-of-surveying-u-s-latinos/): 
 3. Kleiner, B., Pan, Y., & Bouic, J. (2009). The Impact of Instructions on Survey Translation: An Experimental Study. Survey Research Methods, 3(3), 113-122. doi: http://dx.doi.org/10.18148/srm/2009.v3i3.1563: [link](./resources/instructions-survey-translations.pdf): Includes translator instructions template
 4. [Gallup Worldwide Research Methodology and Codebook (2017)](./resources/gallup2017_worldwide_methodology.pdf)
@@ -305,7 +311,7 @@ Types, functions, loops/iterators, truthy/falsy, regex, IIFE/self-executing anon
 10. `document.designMode = 'on'`: [demo](https://twitter.com/imac2/status/1135875294156480512)
 11. [Browser Detection (and What to Do Instead)](http://jibbering.com/faq/notes/detect-browser/)
 12. [Why is getElementsByTagName() faster than querySelectorAll()?](https://humanwhocodes.com/blog/2010/09/28/why-is-getelementsbytagname-faster-that-queryselectorall/)
-13. [James Mickens -- "To Wash It All Away"](http://scholar.harvard.edu/files/mickens/files/towashitallaway.pdf)
+13.  <cc></cc>[James Mickens -- "To Wash It All Away"](http://scholar.harvard.edu/files/mickens/files/towashitallaway.pdf)
     <blockquote>Anyways, my point is that browsers are too complex to be trusted. Unfortunately, youth is always wasted on the young, and the current generation of software developers is convinced that browsers need more features, not fewer. So, we are encouraged to celebrate the fact that browsers turn our computers into little Star Wars cantinas where everyone is welcome and you can drink a blue drink if you want to drink a blue drink and if something bad happens, then maybe a Jedi will save you, and if not, HEY IT’S A STAR WARS CANTINA YESSSSS. Space cantinas are fun, but they’re just a fantasy; they’re just a series of outlandish details stitched together to amuse and entertain. You have to open your eyes and see that in the real, non-hyperbolic world that you actually inhabit, your browser will frequently stop playing a video and then display flashing epilepsy pixels while making the sound that TVs make in Japanese horror movies before a pasty salamander child steps out of the screen and voids your warranty. That’s a thing which could actually happen, and we should wash it all away</blockquote>
 14. [Understanding Specificity in CSS - Jess Mitchell](https://alligator.io/css/understanding-specificity-in-css/)
     <blockquote>Specificity can sometimes feeling counter-intuitive, especially if you’re stuck in a downward spiral of adding more and more selectors to your CSS. One way I find helpful to think about specificity is by thinking of a company with clear seniority levels</blockquote>
@@ -331,13 +337,13 @@ Generally, the site is up to date on the latest vulnerabilities, but when we wri
 Best practices for organizing and visualizing; tutorials for scripted languages
 
 ### Philosophy
-1. [Tukey, Design Thinking, and Better Questions - Roger Peng](https://simplystatistics.org/2019/04/17/tukey-design-thinking-and-better-questions/) 
+1.  <cc></cc>[Tukey, Design Thinking, and Better Questions - Roger Peng](https://simplystatistics.org/2019/04/17/tukey-design-thinking-and-better-questions/) 
     - Corollary: Tukey, John W. The Future of Data Analysis. Ann. Math. Statist. 33 (1962), no. 1, 1--67. doi:10.1214/aoms/1177704711. https://projecteuclid.org/euclid.aoms/1177704711: [link](https://projecteuclid.org/download/pdf_1/euclid.aoms/1177704711)
 
 ### Management/Project Planning
 1. [11 Tips for Improving Productivity using OneNote](https://medium.com/gitbit/10-tips-to-improve-productivity-using-onenote-85dee4a32cf2)
 1. [How Data Scientists Think - A Mini Case Study](https://simplystatistics.org/2019/01/09/how-data-scientists-think-a-mini-case-study/)
-1. [Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10](https://www.jstatsoft.org/article/view/v059i10): How to organize data 
+1.  <cc></cc>[Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23. doi:http://dx.doi.org/10.18637/jss.v059.i10](https://www.jstatsoft.org/article/view/v059i10): How to organize data 
 1. [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 1. [Designing Projects](https://nicercode.github.io/blog/2013-04-05-projects/): directory layout example
 1. [Markdown](https://info474-s17.github.io/book/markdown.html)
@@ -345,7 +351,12 @@ Best practices for organizing and visualizing; tutorials for scripted languages
 1. [Pro Git](https://git-scm.com/book/en/v2): Clone, commit, push, checkout branches, pull requests
 
 ### Visualization
-1. [Mistakes, we've drawn a few: Learning from our errors in data visualization (The Economist)](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
+1. The Big Book of Dashboards
+    - Ch. 1: Data Visualization: A Primer
+    - Ch. 6: Ranking by Now, Comparing with Then
+    - Ch. 24: Showing Churn or Turnover
+    - Glossary of Chart Types (good reference for Google searches, e.g. "[type of chart] in [programming language/viz tool]" 
+1.  <cc></cc>[Mistakes, we've drawn a few: Learning from our errors in data visualization (The Economist)](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
 1. [The laws of shitty dashboards](http://attackwithnumbers.com/the-laws-of-shitty-dashboard)
 1. Stephen Few's "Show Me the Numbers: Designing Tables & Graphs to Enlighten" is available in [hard copy (2012)](http://id.lib.harvard.edu/alma/990147829160203941/catalog) and an older version is available as workshop slides [here](https://courses.washington.edu/info424/2007/readings/Show_Me_the_Numbers_v2.pdf) (they are decently annotated and standalone)
 1. [CRAP Talks #12 – Annabel St John-Lyle: Design Principles for Dashboards](https://www.youtube.com/watch?v=whFb00Z5bQo&feature=youtu.be): ~30 minute video
@@ -385,6 +396,7 @@ Generally, having a well-defined project is the best way to learn. You'll end up
 Unless otherwise noted, these are free and/or open source with no account creation required. For some of these, a tradeoff of the ease of use is the lack of security re: proprietary data as well as limited persistence, so be vigilant! 
 
 ### Planning, Sketching, Prototyping
+1. [Jira/JQL + Confluence](): tk 
 1. [VisBug](https://medium.com/google-design/visbug-101-d2636120f8d7): Chrome Extension that adds a design toolbar to any webpage for easier WYSIWIG mock-ups and inspection. Demo: [GIF](https://miro.medium.com/max/970/1*D55BGi8Gkn9C-PG01gX9Qg.gif)
 1. [Aggie](https://aggie.io/) and [AWW App](https://awwapp.com/): Collaborative painting/whiteboarding
 1. [GlooMaps](https://www.gloomaps.com/): Visual Sitemap Tool
@@ -411,10 +423,9 @@ Book -->|"Titles and notes"| Airtable{Airtable}
 - [LosslessCut](https://github.com/mifi/lossless-cut) is a fast, cross-platform tool for quick video editing (doesn't re-encode video after changes, so edited video is available near-instantly)
 - [ffmpeg](https://ffmpeg.org/) is a command line tool that can screen and video capture, encode/decode, convert, and more -- can be baked into automated workflows
 
-
 ## Arcana
 Last-ditch effort to provide novel information to savvy readers:
-1. [The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music](https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music)
+1.  <cc></cc>[The Story of the DuckTales Theme, History’s Catchiest Single Minute of Music](https://www.vanityfair.com/hollywood/2017/08/the-story-of-the-ducktales-theme-music)
 2. [25 Delightful Facts About Delaware](http://mentalfloss.com/article/70917/25-delightful-facts-about-delaware)
 
 </div>
