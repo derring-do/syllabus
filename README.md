@@ -106,8 +106,7 @@ a.scroll-nav__link {}
 ## Introduction
 [https://derring-do.github.io/syllabus/](https://derring-do.github.io/syllabus/)
 
-This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do.
-{:.test}
+This is a cursorily-curated, ever-evolving brain dump of resources related to the kinds of work I do and teach others to do {:.test}
 
 <!-- hide the parent of every list item whose href doesn't have annotation
 
